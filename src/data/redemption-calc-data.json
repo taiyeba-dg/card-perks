@@ -1,0 +1,5416 @@
+{
+  "_meta": {
+    "generated": true,
+    "source": "scripts/generate-calc-data.ts",
+    "warning": "DO NOT EDIT MANUALLY — regenerate with: npm run generate:calc"
+  },
+  "amex-platinum-charge": {
+    "id": "amex-platinum-charge",
+    "name": "American Express Platinum Charge Card",
+    "image": "/cards/amex-platinum-charge.png",
+    "bank": "American Express",
+    "pointCurrency": "Membership Rewards",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Airline miles transfer",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Airline Miles",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Singapore Airlines KrisFlyer",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      },
+      {
+        "name": "InterMiles",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "amex-platinum-reserve": {
+    "id": "amex-platinum-reserve",
+    "name": "American Express Platinum Reserve Credit Card",
+    "image": "/cards/amex-platinum-reserve.png",
+    "bank": "American Express",
+    "pointCurrency": "Membership Rewards",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Taj/airline redemptions",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Taj Vouchers",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "amex-platinum-travel": {
+    "id": "amex-platinum-travel",
+    "name": "American Express Platinum Travel Credit Card",
+    "image": "/cards/amex-platinum-travel.png",
+    "bank": "American Express",
+    "pointCurrency": "Membership Rewards",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Taj vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Taj Vouchers",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "amex-gold-charge": {
+    "id": "amex-gold-charge",
+    "name": "American Express Gold Charge Card",
+    "image": "/cards/amex-gold-charge.png",
+    "bank": "American Express",
+    "pointCurrency": "Membership Rewards",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Travel vouchers/Taj bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Taj Vouchers",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "amex-mrcc": {
+    "id": "amex-mrcc",
+    "name": "American Express Membership Rewards Credit Card",
+    "image": "/cards/amex-mrcc.png",
+    "bank": "American Express",
+    "pointCurrency": "Membership Rewards",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "18K Gold Collection",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "18K Gold Collection",
+        "value": 0.5,
+        "desc": "7-10 days",
+        "recommended": true,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "Partner Vouchers",
+        "value": 0.4,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "amex-smartearn": {
+    "id": "amex-smartearn",
+    "name": "American Express SmartEarn Credit Card",
+    "image": "/cards/amex-smartearn.png",
+    "bank": "American Express",
+    "pointCurrency": "Membership Rewards",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "au-zenith-plus": {
+    "id": "au-zenith-plus",
+    "name": "AU Bank Zenith+ Credit Card",
+    "image": "/cards/au-zenith-plus.png",
+    "bank": "AU Small Finance Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Travel Redemption",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Redemption",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Partner Vouchers",
+        "value": 0.4,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      },
+      {
+        "name": "ITC Hotels",
+        "ratio": "2:1",
+        "type": "hotel",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "au-zenith": {
+    "id": "au-zenith",
+    "name": "AU Bank Zenith Credit Card",
+    "image": "/cards/au-zenith.png",
+    "bank": "AU Small Finance Bank",
+    "pointCurrency": "AU Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "au-vetta": {
+    "id": "au-vetta",
+    "name": "AU Bank Vetta Credit Card",
+    "image": "/cards/au-vetta.png",
+    "bank": "AU Small Finance Bank",
+    "pointCurrency": "AU Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "ixigo-au": {
+    "id": "ixigo-au",
+    "name": "ixigo AU Bank Credit Card",
+    "image": "/cards/ixigo-au.png",
+    "bank": "AU Small Finance Bank",
+    "pointCurrency": "AU Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "ixigo travel bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "ixigo Bookings",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "au-lit": {
+    "id": "au-lit",
+    "name": "AU Bank LIT Credit Card",
+    "image": "/cards/au-lit.png",
+    "bank": "AU Small Finance Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Partner Vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Partner Vouchers",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Product Catalog",
+        "value": 0.15,
+        "desc": "5-7 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-reserve": {
+    "id": "axis-reserve",
+    "name": "Axis Bank Reserve Credit Card",
+    "image": "/cards/axis-reserve.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Travel via EDGE portal",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Portal Travel",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      },
+      {
+        "name": "Marriott Bonvoy",
+        "ratio": "5:2",
+        "type": "hotel",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "axis-magnus": {
+    "id": "axis-magnus",
+    "name": "Axis Bank Magnus Credit Card",
+    "image": "/cards/axis-magnus.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Edge Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "EDGE Rewards Portal",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Rewards Portal",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Travel Redemption",
+        "value": 0.4,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "Product Catalog",
+        "value": 0.2,
+        "desc": "5-7 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "5:4",
+        "type": "airline",
+        "program": ""
+      },
+      {
+        "name": "ITC Hotels",
+        "ratio": "1:1",
+        "type": "hotel",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "axis-olympus": {
+    "id": "axis-olympus",
+    "name": "Axis Bank Olympus Credit Card",
+    "image": "/cards/axis-olympus.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Travel via EDGE portal",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Portal Travel",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "axis-vistara-infinite": {
+    "id": "axis-vistara-infinite",
+    "name": "Axis Bank Vistara Infinite Credit Card",
+    "image": "/cards/axis-vistara-infinite.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Club Vistara Points",
+    "rewardType": "points",
+    "baseValue": 0.75,
+    "bestOption": "Vistara Business Class redemption",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Vistara Flights",
+        "value": 0.75,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "airline",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-atlas": {
+    "id": "axis-atlas",
+    "name": "Axis Bank Atlas Credit Card",
+    "image": "/cards/axis-atlas.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Travel via EDGE portal",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Portal Travel",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "InterMiles",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      },
+      {
+        "name": "Marriott Bonvoy",
+        "ratio": "5:2",
+        "type": "hotel",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "axis-samsung-infinite": {
+    "id": "axis-samsung-infinite",
+    "name": "Samsung Axis Bank Infinite Credit Card",
+    "image": "/cards/axis-samsung-infinite.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Samsung Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Samsung store credits",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Samsung Credits",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-horizon": {
+    "id": "axis-horizon",
+    "name": "Axis Bank Horizon Credit Card",
+    "image": "/cards/axis-horizon.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "EDGE portal vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Portal",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-select": {
+    "id": "axis-select",
+    "name": "Axis Bank Select Credit Card",
+    "image": "/cards/axis-select.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "EDGE portal vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Portal",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-lic-signature": {
+    "id": "axis-lic-signature",
+    "name": "Axis Bank LIC Signature Credit Card",
+    "image": "/cards/axis-lic-signature.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-vistara-signature": {
+    "id": "axis-vistara-signature",
+    "name": "Axis Bank Vistara Signature Credit Card",
+    "image": "/cards/axis-vistara-signature.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Club Vistara Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Vistara Premium Economy",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Vistara Flights",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-privilege": {
+    "id": "axis-privilege",
+    "name": "Axis Bank Privilege Credit Card",
+    "image": "/cards/axis-privilege.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Edge Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "EDGE Rewards Portal",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Rewards Portal",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "Product Catalog",
+        "value": 0.2,
+        "desc": "5-7 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-cashback": {
+    "id": "axis-cashback",
+    "name": "Axis Bank Cashback Credit Card",
+    "image": "/cards/axis-cashback.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "flipkart-axis": {
+    "id": "flipkart-axis",
+    "name": "Flipkart Axis Bank Credit Card",
+    "image": "/cards/flipkart-axis.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Direct Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "1-2 billing cycles",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-myzone": {
+    "id": "axis-myzone",
+    "name": "Axis My Zone Credit Card",
+    "image": "/cards/axis-myzone.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "EDGE portal vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Portal",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-rewards": {
+    "id": "axis-rewards",
+    "name": "Axis Bank Rewards Credit Card",
+    "image": "/cards/axis-rewards.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "EDGE portal vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EDGE Portal",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-indianoil": {
+    "id": "axis-indianoil",
+    "name": "IndianOil Axis Bank Credit Card",
+    "image": "/cards/axis-indianoil.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Fuel surcharge savings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Fuel Savings",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-ace": {
+    "id": "axis-ace",
+    "name": "Axis Bank Ace Credit Card",
+    "image": "/cards/axis-ace.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-neo": {
+    "id": "axis-neo",
+    "name": "Axis Bank Neo Credit Card",
+    "image": "/cards/axis-neo.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "EDGE Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-airtel": {
+    "id": "axis-airtel",
+    "name": "Airtel Axis Bank Credit Card",
+    "image": "/cards/axis-airtel.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "axis-flex-google-pay": {
+    "id": "axis-flex-google-pay",
+    "name": "Flex by Google Pay Axis Bank Credit Card",
+    "image": "/cards/axis-flex-google-pay.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Google Pay cashback",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bob-etihad-premier": {
+    "id": "bob-etihad-premier",
+    "name": "Bank of Baroda Etihad Guest Premier Credit Card",
+    "image": "/cards/bob-etihad-premier.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "Etihad Guest Miles",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Etihad flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Etihad Flights",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bob-eterna": {
+    "id": "bob-eterna",
+    "name": "Bank of Baroda Eterna Credit Card",
+    "image": "/cards/bob-eterna.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Travel Redemption",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Redemption",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Partner Vouchers",
+        "value": 0.35,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bob-premier": {
+    "id": "bob-premier",
+    "name": "Bank of Baroda Premier Credit Card",
+    "image": "/cards/bob-premier.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "BOB Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bob-etihad": {
+    "id": "bob-etihad",
+    "name": "Bank of Baroda Etihad Guest Credit Card",
+    "image": "/cards/bob-etihad.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "Etihad Guest Miles",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Etihad flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Etihad Flights",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bob-cashback": {
+    "id": "bob-cashback",
+    "name": "Bank of Baroda Cashback Credit Card",
+    "image": "/cards/bob-cashback.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bob-easy": {
+    "id": "bob-easy",
+    "name": "Bank of Baroda Easy Credit Card",
+    "image": "/cards/bob-easy.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "BOB Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bob-uni": {
+    "id": "bob-uni",
+    "name": "Uni BOB Credit Card",
+    "image": "/cards/bob-uni.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "Digital Gold",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Digital gold accumulation",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Digital Gold",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "jupiter-edge-csb": {
+    "id": "jupiter-edge-csb",
+    "name": "Jupiter Edge CSB Credit Card",
+    "image": "/cards/jupiter-edge-csb.png",
+    "bank": "CSB Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "onecard": {
+    "id": "onecard",
+    "name": "OneCard Credit Card",
+    "image": "/cards/onecard.png",
+    "bank": "CSB/SBM/Indian Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.1,
+    "bestOption": "Statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "federal-celesta": {
+    "id": "federal-celesta",
+    "name": "Federal Bank Celesta Credit Card",
+    "image": "/cards/federal-celesta.png",
+    "bank": "Federal Bank",
+    "pointCurrency": "Federal Bank Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "federal-imperio": {
+    "id": "federal-imperio",
+    "name": "Federal Bank Imperio Credit Card",
+    "image": "/cards/federal-imperio.png",
+    "bank": "Federal Bank",
+    "pointCurrency": "Federal Bank Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "amplifi-fi-federal": {
+    "id": "amplifi-fi-federal",
+    "name": "Fi-Federal Amplifi Credit Card",
+    "image": "/cards/amplifi-fi-federal.png",
+    "bank": "Federal Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "federal-signet": {
+    "id": "federal-signet",
+    "name": "Federal Bank Signet Credit Card",
+    "image": "/cards/federal-signet.png",
+    "bank": "Federal Bank",
+    "pointCurrency": "Federal Bank Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "scapia-federal": {
+    "id": "scapia-federal",
+    "name": "Scapia Federal Bank Credit Card",
+    "image": "/cards/scapia-federal.png",
+    "bank": "Federal Bank",
+    "pointCurrency": "Scapia Coins",
+    "rewardType": "points",
+    "baseValue": 0.2,
+    "bestOption": "Flight bookings via Scapia app",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Scapia App Flights",
+        "value": 0.2,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-infinia-metal": {
+    "id": "hdfc-infinia-metal",
+    "name": "HDFC Bank Infinia Metal Credit Card",
+    "image": "/cards/hdfc-infinia-metal.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "SmartBuy Vouchers",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Singapore Airlines KrisFlyer",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "hdfc-diners-club-black-metal": {
+    "id": "hdfc-diners-club-black-metal",
+    "name": "HDFC Diners Club Black Metal Credit Card",
+    "image": "/cards/hdfc-diners-club-black-metal.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "SmartBuy Vouchers",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Singapore Airlines KrisFlyer",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "hdfc-diners-club-black": {
+    "id": "hdfc-diners-club-black",
+    "name": "HDFC Diners Club Black Credit Card",
+    "image": "/cards/hdfc-diners-club-black.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "SmartBuy Vouchers",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Singapore Airlines KrisFlyer",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "hdfc-bizblack-metal": {
+    "id": "hdfc-bizblack-metal",
+    "name": "HDFC Bank BizBlack Metal Credit Card",
+    "image": "/cards/hdfc-bizblack-metal.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-shoppers-stop-black": {
+    "id": "hdfc-shoppers-stop-black",
+    "name": "HDFC Shoppers Stop Black Credit Card",
+    "image": "/cards/hdfc-shoppers-stop-black.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Shoppers Stop vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Shoppers Stop Vouchers",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "marriott-bonvoy-hdfc": {
+    "id": "marriott-bonvoy-hdfc",
+    "name": "Marriott Bonvoy HDFC Bank Credit Card",
+    "image": "/cards/marriott-bonvoy-hdfc.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Marriott Bonvoy Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Marriott hotel stays",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Marriott Hotel Stay",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 7500,
+        "fee": null
+      },
+      {
+        "type": "airline",
+        "value": 0.4,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 3000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Various Airlines",
+        "ratio": "3:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "hdfc-regalia": {
+    "id": "hdfc-regalia",
+    "name": "HDFC Bank Regalia Credit Card",
+    "image": "/cards/hdfc-regalia.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.3,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-regalia-gold": {
+    "id": "hdfc-regalia-gold",
+    "name": "HDFC Bank Regalia Gold Credit Card",
+    "image": "/cards/hdfc-regalia-gold.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "SmartBuy Vouchers",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-diners-club-privilege": {
+    "id": "hdfc-diners-club-privilege",
+    "name": "HDFC Diners Club Privilege Credit Card",
+    "image": "/cards/hdfc-diners-club-privilege.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.35,
+    "bestOption": "SmartBuy Flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights",
+        "value": 0.35,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-tata-neu-infinity": {
+    "id": "hdfc-tata-neu-infinity",
+    "name": "Tata Neu Infinity HDFC Bank Credit Card",
+    "image": "/cards/hdfc-tata-neu-infinity.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "NeuCoins",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Tata Neu ecosystem",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Tata Neu Purchase",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-millennia": {
+    "id": "hdfc-millennia",
+    "name": "HDFC Bank Millennia Credit Card",
+    "image": "/cards/hdfc-millennia.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Cashback + RP",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Partner cashback (auto)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Partner Cashback",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-regalia-first": {
+    "id": "hdfc-regalia-first",
+    "name": "HDFC Bank Regalia First Credit Card",
+    "image": "/cards/hdfc-regalia-first.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.3,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-diners-clubmiles": {
+    "id": "hdfc-diners-clubmiles",
+    "name": "HDFC Diners ClubMiles Credit Card",
+    "image": "/cards/hdfc-diners-clubmiles.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Air miles transfer",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Air Miles Transfer",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "British Airways Avios",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      },
+      {
+        "name": "Singapore Airlines KrisFlyer",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "hdfc-swiggy": {
+    "id": "hdfc-swiggy",
+    "name": "Swiggy HDFC Bank Credit Card",
+    "image": "/cards/hdfc-swiggy.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-freedom": {
+    "id": "hdfc-freedom",
+    "name": "HDFC Bank Freedom Credit Card",
+    "image": "/cards/hdfc-freedom.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "CashPoints",
+    "rewardType": "cashback",
+    "baseValue": 0.15,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.15,
+        "desc": "Next cycle",
+        "recommended": true,
+        "minPoints": 3334,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-moneyback-plus": {
+    "id": "hdfc-moneyback-plus",
+    "name": "HDFC MoneyBack+ Credit Card",
+    "image": "/cards/hdfc-moneyback-plus.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.2,
+    "bestOption": "Cashback/Vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Cashback",
+        "value": 0.2,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-pixel-play": {
+    "id": "hdfc-pixel-play",
+    "name": "HDFC Pixel Play Credit Card",
+    "image": "/cards/hdfc-pixel-play.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit (auto)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-shoppers-stop": {
+    "id": "hdfc-shoppers-stop",
+    "name": "HDFC Shoppers Stop Credit Card",
+    "image": "/cards/hdfc-shoppers-stop.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Shoppers Stop vouchers (1:1)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Shoppers Stop Vouchers",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "irctc-hdfc": {
+    "id": "irctc-hdfc",
+    "name": "IRCTC HDFC Bank Credit Card",
+    "image": "/cards/irctc-hdfc.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "IRCTC bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IRCTC Bookings",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-bizpower": {
+    "id": "hdfc-bizpower",
+    "name": "HDFC Bank BizPower Credit Card",
+    "image": "/cards/hdfc-bizpower.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "SmartBuy Flights/Hotels",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "SmartBuy Flights/Hotels",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 1,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.3,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-6e-rewards-indigo": {
+    "id": "hdfc-6e-rewards-indigo",
+    "name": "6E Rewards IndiGo HDFC Bank Credit Card",
+    "image": "/cards/hdfc-6e-rewards-indigo.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "6E Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "IndiGo flight bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IndiGo Flights",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-indianoil": {
+    "id": "hdfc-indianoil",
+    "name": "IndianOil HDFC Bank Credit Card",
+    "image": "/cards/hdfc-indianoil.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Fuel Points",
+    "rewardType": "points",
+    "baseValue": 0.96,
+    "bestOption": "IndianOil fuel purchases",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IndianOil Fuel",
+        "value": 0.96,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-tata-neu-plus": {
+    "id": "hdfc-tata-neu-plus",
+    "name": "Tata Neu Plus HDFC Bank Credit Card",
+    "image": "/cards/hdfc-tata-neu-plus.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "NeuCoins",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Tata Neu ecosystem",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Tata Neu Purchase",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-pixel-go": {
+    "id": "hdfc-pixel-go",
+    "name": "HDFC Pixel Go Credit Card",
+    "image": "/cards/hdfc-pixel-go.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit (auto)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hsbc-taj": {
+    "id": "hsbc-taj",
+    "name": "HSBC Taj Credit Card",
+    "image": "/cards/hsbc-taj.png",
+    "bank": "HSBC",
+    "pointCurrency": "HSBC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Taj hotel stays",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Taj Stays",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "voucher",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hsbc-premier": {
+    "id": "hsbc-premier",
+    "name": "HSBC Premier Credit Card",
+    "image": "/cards/hsbc-premier.png",
+    "bank": "HSBC",
+    "pointCurrency": "HSBC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Travel/gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hsbc-travel-one": {
+    "id": "hsbc-travel-one",
+    "name": "HSBC TravelOne Credit Card",
+    "image": "/cards/hsbc-travel-one.png",
+    "bank": "HSBC",
+    "pointCurrency": "HSBC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Airline miles 1:1",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Airline Miles",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Singapore Airlines",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "hsbc-live-plus": {
+    "id": "hsbc-live-plus",
+    "name": "HSBC Live+ Credit Card",
+    "image": "/cards/hsbc-live-plus.png",
+    "bank": "HSBC",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit (auto)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hsbc-rupay-cashback": {
+    "id": "hsbc-rupay-cashback",
+    "name": "HSBC RuPay Cashback Credit Card",
+    "image": "/cards/hsbc-rupay-cashback.png",
+    "bank": "HSBC",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hsbc-platinum-rupay": {
+    "id": "hsbc-platinum-rupay",
+    "name": "HSBC Platinum RuPay Credit Card",
+    "image": "/cards/hsbc-platinum-rupay.png",
+    "bank": "HSBC",
+    "pointCurrency": "HSBC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hsbc-platinum": {
+    "id": "hsbc-platinum",
+    "name": "HSBC Visa Platinum Credit Card",
+    "image": "/cards/hsbc-platinum.png",
+    "bank": "HSBC",
+    "pointCurrency": "HSBC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-emeralde-private-metal": {
+    "id": "icici-emeralde-private-metal",
+    "name": "ICICI Bank Emeralde Private Metal Credit Card",
+    "image": "/cards/icici-emeralde-private-metal.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "iShop premium redemptions",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Products/Vouchers",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.4,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-emeralde": {
+    "id": "icici-emeralde",
+    "name": "ICICI Bank Emeralde Credit Card",
+    "image": "/cards/icici-emeralde.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "iShop travel (6X-12X)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "iShop Flights (6X)",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "hotel",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-emirates-emeralde": {
+    "id": "icici-emirates-emeralde",
+    "name": "ICICI Bank Emirates Emeralde Credit Card",
+    "image": "/cards/icici-emirates-emeralde.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "Emirates Skywards Miles",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Emirates flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Emirates Flights",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-sapphiro": {
+    "id": "icici-sapphiro",
+    "name": "ICICI Bank Sapphiro Credit Card",
+    "image": "/cards/icici-sapphiro.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "iShop travel (6X-12X)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "iShop Flights (6X)",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "hotel",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-times-black": {
+    "id": "icici-times-black",
+    "name": "Times Black ICICI Bank Credit Card",
+    "image": "/cards/icici-times-black.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Gift vouchers at ₹1/pt",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 1,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.4,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-emirates-sapphiro": {
+    "id": "icici-emirates-sapphiro",
+    "name": "ICICI Bank Emirates Sapphiro Credit Card",
+    "image": "/cards/icici-emirates-sapphiro.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "Emirates Skywards Miles",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Emirates flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Emirates Flights",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-rubyx": {
+    "id": "icici-rubyx",
+    "name": "ICICI Bank Rubyx Credit Card",
+    "image": "/cards/icici-rubyx.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "iShop travel (6X-12X)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "iShop Flights (6X)",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "hotel",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-emirates-rubyx": {
+    "id": "icici-emirates-rubyx",
+    "name": "ICICI Bank Emirates Rubyx Credit Card",
+    "image": "/cards/icici-emirates-rubyx.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "Emirates Skywards Miles",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Emirates flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Emirates Flights",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-makemytrip-signature": {
+    "id": "icici-makemytrip-signature",
+    "name": "MakeMyTrip ICICI Bank Signature Credit Card",
+    "image": "/cards/icici-makemytrip-signature.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "MyCash",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "MakeMyTrip bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "MakeMyTrip Bookings",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-coral": {
+    "id": "icici-coral",
+    "name": "ICICI Bank Coral Credit Card",
+    "image": "/cards/icici-coral.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "iShop vouchers (6X)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "iShop Flights",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "hotel",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-hpcl-super-saver": {
+    "id": "icici-hpcl-super-saver",
+    "name": "ICICI Bank HPCL Super Saver Credit Card",
+    "image": "/cards/icici-hpcl-super-saver.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "Cashback + Happy Coins",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto cashback on fuel",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Auto Cashback",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-hpcl-coral": {
+    "id": "icici-hpcl-coral",
+    "name": "ICICI Bank HPCL Coral Credit Card",
+    "image": "/cards/icici-hpcl-coral.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Fuel savings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "amazon-pay-icici": {
+    "id": "amazon-pay-icici",
+    "name": "Amazon Pay ICICI Bank Credit Card",
+    "image": "/cards/amazon-pay-icici.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "Amazon Pay Balance",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto-credited as Amazon Pay balance",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Amazon Pay Balance",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-makemytrip-platinum": {
+    "id": "icici-makemytrip-platinum",
+    "name": "MakeMyTrip ICICI Bank Platinum Credit Card",
+    "image": "/cards/icici-makemytrip-platinum.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "MyCash",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "MakeMyTrip bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "MakeMyTrip Bookings",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "icici-platinum-chip": {
+    "id": "icici-platinum-chip",
+    "name": "ICICI Bank Platinum Chip Credit Card",
+    "image": "/cards/icici-platinum-chip.png",
+    "bank": "ICICI Bank",
+    "pointCurrency": "ICICI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-first-private": {
+    "id": "idfc-first-private",
+    "name": "IDFC FIRST Private Credit Card",
+    "image": "/cards/idfc-first-private.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Travel bookings at ₹1/pt (from Jun 2025)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Bookings",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-gaj": {
+    "id": "idfc-gaj",
+    "name": "IDFC FIRST Gaj Credit Card",
+    "image": "/cards/idfc-gaj.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Travel bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Bookings",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-mayura": {
+    "id": "idfc-mayura",
+    "name": "IDFC FIRST Mayura Credit Card",
+    "image": "/cards/idfc-mayura.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Travel at ₹0.50/pt",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Bookings",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-indigo": {
+    "id": "idfc-indigo",
+    "name": "IndiGo IDFC FIRST Dual Credit Card",
+    "image": "/cards/idfc-indigo.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "BluChips",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "IndiGo flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IndiGo Flights",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-diamond-reserve": {
+    "id": "idfc-diamond-reserve",
+    "name": "IDFC FIRST Diamond Reserve Credit Card",
+    "image": "/cards/idfc-diamond-reserve.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-ashva": {
+    "id": "idfc-ashva",
+    "name": "IDFC FIRST Ashva Credit Card",
+    "image": "/cards/idfc-ashva.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Flights/hotels at ₹0.40/pt",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Bookings",
+        "value": 0.4,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-first-hello-cashback": {
+    "id": "idfc-first-hello-cashback",
+    "name": "IDFC FIRST Hello Cashback Credit Card",
+    "image": "/cards/idfc-first-hello-cashback.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-power-plus": {
+    "id": "idfc-power-plus",
+    "name": "IDFC FIRST HPCL Power Plus Credit Card",
+    "image": "/cards/idfc-power-plus.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Fuel purchase rewards",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-first-wealth": {
+    "id": "idfc-first-wealth",
+    "name": "IDFC FIRST Wealth Credit Card",
+    "image": "/cards/idfc-first-wealth.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-first-select": {
+    "id": "idfc-first-select",
+    "name": "IDFC FIRST Select Credit Card",
+    "image": "/cards/idfc-first-select.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Statement credit or vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-first-classic": {
+    "id": "idfc-first-classic",
+    "name": "IDFC FIRST Classic Credit Card",
+    "image": "/cards/idfc-first-classic.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-first-wow": {
+    "id": "idfc-first-wow",
+    "name": "IDFC FIRST WOW Credit Card",
+    "image": "/cards/idfc-first-wow.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-swyp": {
+    "id": "idfc-swyp",
+    "name": "IDFC FIRST SWYP Credit Card",
+    "image": "/cards/idfc-swyp.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Travel vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "idfc-first-millennia": {
+    "id": "idfc-first-millennia",
+    "name": "IDFC FIRST Millennia Credit Card",
+    "image": "/cards/idfc-first-millennia.png",
+    "bank": "IDFC FIRST Bank",
+    "pointCurrency": "IDFC FIRST Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-pioneer-heritage": {
+    "id": "indusind-pioneer-heritage",
+    "name": "IndusInd Bank Pioneer Heritage Metal Credit Card",
+    "image": "/cards/indusind-pioneer-heritage.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.75,
+    "bestOption": "Premium travel/lifestyle redemptions",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Travel Vouchers",
+        "value": 0.75,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-pioneer-legacy": {
+    "id": "indusind-pioneer-legacy",
+    "name": "IndusInd Bank Pioneer Legacy Credit Card",
+    "image": "/cards/indusind-pioneer-legacy.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-indulge": {
+    "id": "indusind-indulge",
+    "name": "IndusInd Bank Indulge Credit Card",
+    "image": "/cards/indusind-indulge.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-legend": {
+    "id": "indusind-legend",
+    "name": "IndusInd Bank Legend Credit Card",
+    "image": "/cards/indusind-legend.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-avios": {
+    "id": "indusind-avios",
+    "name": "IndusInd Bank Avios Credit Card",
+    "image": "/cards/indusind-avios.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "Avios",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "BA/Qatar flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "BA/Qatar Flights",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "British Airways",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      },
+      {
+        "name": "Qatar Airways",
+        "ratio": "1:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "indusind-pinnacle": {
+    "id": "indusind-pinnacle",
+    "name": "IndusInd Bank Pinnacle Credit Card",
+    "image": "/cards/indusind-pinnacle.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Travel/lifestyle vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-platinum-aura-edge": {
+    "id": "indusind-platinum-aura-edge",
+    "name": "IndusInd Bank Platinum Aura Edge Credit Card",
+    "image": "/cards/indusind-platinum-aura-edge.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-eazydiner-platinum": {
+    "id": "indusind-eazydiner-platinum",
+    "name": "IndusInd Bank EazyDiner Platinum Credit Card",
+    "image": "/cards/indusind-eazydiner-platinum.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "EazyPoints",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "EazyDiner meals/stays",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EazyDiner Meals",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 200,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-club-vistara-explorer": {
+    "id": "indusind-club-vistara-explorer",
+    "name": "IndusInd Bank Club Vistara Explorer Credit Card",
+    "image": "/cards/indusind-club-vistara-explorer.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "Club Vistara Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "Vistara flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Vistara Flights",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-tiger": {
+    "id": "indusind-tiger",
+    "name": "IndusInd Bank Tiger Credit Card",
+    "image": "/cards/indusind-tiger.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-platinum-rupay": {
+    "id": "indusind-platinum-rupay",
+    "name": "IndusInd Bank Platinum RuPay Credit Card",
+    "image": "/cards/indusind-platinum-rupay.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-white-reserve": {
+    "id": "kotak-white-reserve",
+    "name": "Kotak White Reserve Credit Card",
+    "image": "/cards/kotak-white-reserve.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "Kotak Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Travel/lifestyle vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-zen-signature": {
+    "id": "kotak-zen-signature",
+    "name": "Kotak Zen Signature Credit Card",
+    "image": "/cards/kotak-zen-signature.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "Kotak Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-white": {
+    "id": "kotak-white",
+    "name": "Kotak White Credit Card",
+    "image": "/cards/kotak-white.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "Kotak Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-pvr-inox": {
+    "id": "kotak-pvr-inox",
+    "name": "Kotak PVR Inox Credit Card",
+    "image": "/cards/kotak-pvr-inox.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "PVR Tickets",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "PVR INOX Free Tickets",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "PVR INOX Free Tickets",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-mojo": {
+    "id": "kotak-mojo",
+    "name": "Kotak Mojo Credit Card",
+    "image": "/cards/kotak-mojo.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "Kotak Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-league-platinum": {
+    "id": "kotak-league-platinum",
+    "name": "Kotak League Platinum Credit Card",
+    "image": "/cards/kotak-league-platinum.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "Kotak Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-811-credit-card": {
+    "id": "kotak-811-credit-card",
+    "name": "Kotak 811 Dream Different Credit Card",
+    "image": "/cards/kotak-811.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "Kotak Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "rbl-insignia": {
+    "id": "rbl-insignia",
+    "name": "RBL Bank Insignia Credit Card",
+    "image": "/cards/rbl-insignia.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "RBL Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "rbl-icon": {
+    "id": "rbl-icon",
+    "name": "RBL Bank Icon Credit Card",
+    "image": "/cards/rbl-icon.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "RBL Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "rbl-world-safari": {
+    "id": "rbl-world-safari",
+    "name": "RBL Bank World Safari Credit Card",
+    "image": "/cards/rbl-world-safari.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "RBL Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Travel vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "cred-mint": {
+    "id": "cred-mint",
+    "name": "CRED Mint RBL Bank Credit Card",
+    "image": "/cards/cred-mint.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "CRED Coins",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "CRED app rewards",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "CRED Rewards",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "rbl-platinum-maxima": {
+    "id": "rbl-platinum-maxima",
+    "name": "RBL Bank Platinum Maxima Credit Card",
+    "image": "/cards/rbl-platinum-maxima.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "RBL Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "rbl-shoprite": {
+    "id": "rbl-shoprite",
+    "name": "RBL Bank ShopRite Credit Card",
+    "image": "/cards/rbl-shoprite.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "RBL Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-aurum": {
+    "id": "sbi-aurum",
+    "name": "SBI Card AURUM",
+    "image": "/cards/sbi-aurum.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Aurum Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers or statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-elite": {
+    "id": "sbi-elite",
+    "name": "SBI Card ELITE",
+    "image": "/cards/sbi-elite.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-miles-elite": {
+    "id": "sbi-miles-elite",
+    "name": "SBI Miles Elite Credit Card",
+    "image": "/cards/sbi-miles-elite.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Air miles transfer",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Air Miles",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Vistara",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "air-india-sbi-signature": {
+    "id": "air-india-sbi-signature",
+    "name": "Air India SBI Signature Credit Card",
+    "image": "/cards/air-india-sbi-signature.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Air India flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Air India Flights",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-indigo-elite": {
+    "id": "sbi-indigo-elite",
+    "name": "IndiGo SBI Card ELITE",
+    "image": "/cards/sbi-indigo-elite.png",
+    "bank": "SBI Card",
+    "pointCurrency": "6E Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "IndiGo flight bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IndiGo Flights",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-prime": {
+    "id": "sbi-prime",
+    "name": "SBI Card PRIME",
+    "image": "/cards/sbi-prime.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-reliance-prime": {
+    "id": "sbi-reliance-prime",
+    "name": "Reliance SBI Card PRIME",
+    "image": "/cards/sbi-reliance-prime.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Reliance vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Reliance Vouchers",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-titan": {
+    "id": "sbi-titan",
+    "name": "Titan SBI Credit Card",
+    "image": "/cards/sbi-titan.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Titan brand vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Titan Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-pulse": {
+    "id": "sbi-pulse",
+    "name": "SBI Card PULSE",
+    "image": "/cards/sbi-pulse.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bpcl-sbi-octane": {
+    "id": "bpcl-sbi-octane",
+    "name": "BPCL SBI Card OCTANE",
+    "image": "/cards/bpcl-sbi-octane.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "BPCL Fuel Voucher",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "BPCL Fuel Voucher",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 2000,
+        "fee": null
+      },
+      {
+        "type": "Partner Vouchers",
+        "value": 0.2,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.15,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-tata-neu-infinity": {
+    "id": "sbi-tata-neu-infinity",
+    "name": "Tata Neu Infinity PLUS SBI Card",
+    "image": "/cards/sbi-tata-neu-infinity.png",
+    "bank": "SBI Card",
+    "pointCurrency": "NeuCoins",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Tata Neu ecosystem",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Tata Neu",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-phonepe-select": {
+    "id": "sbi-phonepe-select",
+    "name": "PhonePe SBI Card SELECT BLACK",
+    "image": "/cards/sbi-phonepe-select.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "PhonePe cashback",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "PhonePe Credits",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-paytm-select": {
+    "id": "sbi-paytm-select",
+    "name": "Paytm SBI Card SELECT",
+    "image": "/cards/sbi-paytm-select.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Paytm cashback",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Paytm Credits",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-indigo": {
+    "id": "sbi-indigo",
+    "name": "IndiGo SBI Card",
+    "image": "/cards/sbi-indigo.png",
+    "bank": "SBI Card",
+    "pointCurrency": "6E Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "IndiGo flight bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IndiGo Flights",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "irctc-sbi-premier": {
+    "id": "irctc-sbi-premier",
+    "name": "IRCTC SBI Card Premier",
+    "image": "/cards/irctc-sbi-premier.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "IRCTC bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IRCTC Bookings",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-apollo": {
+    "id": "sbi-apollo",
+    "name": "Apollo SBI Card SELECT",
+    "image": "/cards/sbi-apollo.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Apollo health services",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Apollo Health Services",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-doctors": {
+    "id": "sbi-doctors",
+    "name": "Doctor's SBI Credit Card",
+    "image": "/cards/sbi-doctors.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "air-india-sbi-platinum": {
+    "id": "air-india-sbi-platinum",
+    "name": "Air India SBI Platinum Credit Card",
+    "image": "/cards/air-india-sbi-platinum.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Air India flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Air India Flights",
+        "value": 0.5,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-cashback": {
+    "id": "sbi-cashback",
+    "name": "SBI Cashback Credit Card",
+    "image": "/cards/sbi-cashback.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit (auto)",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Next cycle",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-flipkart": {
+    "id": "sbi-flipkart",
+    "name": "Flipkart SBI Card",
+    "image": "/cards/sbi-flipkart.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "bpcl-sbi": {
+    "id": "bpcl-sbi",
+    "name": "BPCL SBI Card",
+    "image": "/cards/bpcl-sbi.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "BPCL fuel credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "BPCL Fuel Credit",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-tata-neu-plus": {
+    "id": "sbi-tata-neu-plus",
+    "name": "Tata Neu Plus SBI Card",
+    "image": "/cards/sbi-tata-neu-plus.png",
+    "bank": "SBI Card",
+    "pointCurrency": "NeuCoins",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Tata Neu ecosystem",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Tata Neu",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-phonepe": {
+    "id": "sbi-phonepe",
+    "name": "PhonePe SBI Card PURPLE",
+    "image": "/cards/sbi-phonepe.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "PhonePe cashback",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "PhonePe Credits",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-paytm": {
+    "id": "sbi-paytm",
+    "name": "Paytm SBI Card",
+    "image": "/cards/sbi-paytm.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Paytm cashback",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Paytm Credits",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-reliance": {
+    "id": "sbi-reliance",
+    "name": "Reliance SBI Card",
+    "image": "/cards/sbi-reliance.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Reliance vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Reliance Vouchers",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-simplyclick": {
+    "id": "sbi-simplyclick",
+    "name": "SBI SimplyCLICK Credit Card",
+    "image": "/cards/sbi-simplyclick.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Amazon voucher",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Amazon Voucher",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-simplysave": {
+    "id": "sbi-simplysave",
+    "name": "SBI SimplySAVE Credit Card",
+    "image": "/cards/sbi-simplysave.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      },
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sbi-styleup": {
+    "id": "sbi-styleup",
+    "name": "SBI StyleUp Credit Card",
+    "image": "/cards/sbi-styleup.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Fashion vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Fashion Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "irctc-sbi-platinum": {
+    "id": "irctc-sbi-platinum",
+    "name": "IRCTC SBI Platinum Credit Card",
+    "image": "/cards/irctc-sbi-platinum.png",
+    "bank": "SBI Card",
+    "pointCurrency": "SBI Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "IRCTC transaction fee waiver",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IRCTC Bookings",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      },
+      {
+        "type": "statement",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "club-vistara-sbi-prime": {
+    "id": "club-vistara-sbi-prime",
+    "name": "Club Vistara SBI Card PRIME",
+    "image": "/cards/club-vistara-sbi-prime.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Club Vistara Points",
+    "rewardType": "points",
+    "baseValue": 0.75,
+    "bestOption": "Vistara Business Class",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Vistara Flights",
+        "value": 0.75,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "club-vistara-sbi": {
+    "id": "club-vistara-sbi",
+    "name": "Club Vistara SBI Card",
+    "image": "/cards/club-vistara-sbi.png",
+    "bank": "SBI Card",
+    "pointCurrency": "Club Vistara Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "Vistara Flight Redemption",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Vistara Flight Redemption",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": 2000,
+        "fee": null
+      },
+      {
+        "type": "Vistara Upgrade",
+        "value": 0.8,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1500,
+        "fee": null
+      },
+      {
+        "type": "Partner Vouchers",
+        "value": 0.3,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 1000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [
+      {
+        "name": "Singapore Airlines KrisFlyer",
+        "ratio": "2:1",
+        "type": "airline",
+        "program": ""
+      }
+    ],
+    "restrictions": null
+  },
+  "niyo-sbm": {
+    "id": "niyo-sbm",
+    "name": "Niyo SBM Credit Card",
+    "image": "/cards/niyo-sbm.png",
+    "bank": "SBM Bank",
+    "pointCurrency": "Niyo Coins",
+    "rewardType": "points",
+    "baseValue": 0.1,
+    "bestOption": "Account credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Account Credit",
+        "value": 0.1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 1,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sc-ultimate": {
+    "id": "sc-ultimate",
+    "name": "Standard Chartered Ultimate Credit Card",
+    "image": "/cards/sc-ultimate.png",
+    "bank": "Standard Chartered",
+    "pointCurrency": "SC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sc-rewards": {
+    "id": "sc-rewards",
+    "name": "Standard Chartered Rewards Credit Card",
+    "image": "/cards/sc-rewards.png",
+    "bank": "Standard Chartered",
+    "pointCurrency": "SC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sc-platinum-rewards": {
+    "id": "sc-platinum-rewards",
+    "name": "Standard Chartered Platinum Rewards Credit Card",
+    "image": "/cards/sc-platinum-rewards.png",
+    "bank": "Standard Chartered",
+    "pointCurrency": "SC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sc-super-value-titanium": {
+    "id": "sc-super-value-titanium",
+    "name": "Standard Chartered Super Value Titanium Credit Card",
+    "image": "/cards/sc-super-value-titanium.png",
+    "bank": "Standard Chartered",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sc-easemytrip": {
+    "id": "sc-easemytrip",
+    "name": "Standard Chartered EaseMyTrip Credit Card",
+    "image": "/cards/sc-easemytrip.png",
+    "bank": "Standard Chartered",
+    "pointCurrency": "SC Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "EaseMyTrip bookings",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "EaseMyTrip Bookings",
+        "value": 0.25,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "sc-smart": {
+    "id": "sc-smart",
+    "name": "Standard Chartered Smart Credit Card",
+    "image": "/cards/sc-smart.png",
+    "bank": "Standard Chartered",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "slice-sbi": {
+    "id": "slice-sbi",
+    "name": "Slice SBI Credit Card",
+    "image": "/cards/slice-sbi.png",
+    "bank": "State Bank of India",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "yes-bank-reserv": {
+    "id": "yes-bank-reserv",
+    "name": "YES Bank RESERV Credit Card",
+    "image": "/cards/yes-bank-reserv.png",
+    "bank": "YES Bank",
+    "pointCurrency": "YES Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "yes-bank-marquee": {
+    "id": "yes-bank-marquee",
+    "name": "YES Bank Marquee Credit Card",
+    "image": "/cards/yes-bank-marquee.png",
+    "bank": "YES Bank",
+    "pointCurrency": "YES Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "yes-bank-first-exclusive": {
+    "id": "yes-bank-first-exclusive",
+    "name": "YES Bank FIRST Exclusive Credit Card",
+    "image": "/cards/yes-bank-first-exclusive.png",
+    "bank": "YES Bank",
+    "pointCurrency": "YES Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "yes-bank-first-preferred": {
+    "id": "yes-bank-first-preferred",
+    "name": "YES Bank FIRST Preferred Credit Card",
+    "image": "/cards/yes-bank-first-preferred.png",
+    "bank": "YES Bank",
+    "pointCurrency": "YES Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "yes-bank-ace": {
+    "id": "yes-bank-ace",
+    "name": "YES Bank ACE Credit Card",
+    "image": "/cards/yes-bank-ace.png",
+    "bank": "YES Bank",
+    "pointCurrency": "YES Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Gift vouchers",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Gift Vouchers",
+        "value": 0.25,
+        "desc": "3-5 days",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kiwi-rupay": {
+    "id": "kiwi-rupay",
+    "name": "Kiwi RuPay Credit Card",
+    "image": "/cards/kiwi-rupay.png",
+    "bank": "Yes Bank/Others",
+    "pointCurrency": "Kiwi Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 100,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "supermoney-axis-rupay": {
+    "id": "supermoney-axis-rupay",
+    "name": "SuperMoney Axis Bank RuPay Credit Card",
+    "image": "/cards/supermoney-axis-rupay.png",
+    "bank": "Axis Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "yes-paisasave": {
+    "id": "yes-paisasave",
+    "name": "YES Bank Paisabazaar PaisaSave Credit Card",
+    "image": "/cards/yes-paisasave.png",
+    "bank": "YES Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-phonepe-ultimo": {
+    "id": "hdfc-phonepe-ultimo",
+    "name": "PhonePe HDFC Bank Ultimo Credit Card",
+    "image": "/cards/hdfc-phonepe-ultimo.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "PhonePe credits",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "PhonePe Credits",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-phonepe-uno": {
+    "id": "hdfc-phonepe-uno",
+    "name": "PhonePe HDFC Bank Uno Credit Card",
+    "image": "/cards/hdfc-phonepe-uno.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 1,
+    "bestOption": "PhonePe credits",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "PhonePe Credits",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-swiggy-blck": {
+    "id": "hdfc-swiggy-blck",
+    "name": "Swiggy BLCK HDFC Bank Credit Card",
+    "image": "/cards/hdfc-swiggy-blck.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "hdfc-swiggy-ornge": {
+    "id": "hdfc-swiggy-ornge",
+    "name": "Swiggy Ornge HDFC Bank Credit Card",
+    "image": "/cards/hdfc-swiggy-ornge.png",
+    "bank": "HDFC Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Auto statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-jio-bp": {
+    "id": "indusind-jio-bp",
+    "name": "IndusInd Bank Jio-bp Mobility+ Credit Card",
+    "image": "/cards/indusind-jio-bp.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Jio-bp app credits",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Jio-bp App Credits",
+        "value": 1,
+        "desc": "Automatic",
+        "recommended": false,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-indigo": {
+    "id": "kotak-indigo",
+    "name": "Kotak IndiGo BluChip Credit Card",
+    "image": "/cards/kotak-indigo.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "BluChips",
+    "rewardType": "points",
+    "baseValue": 0.5,
+    "bestOption": "IndiGo flights",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "IndiGo Flights",
+        "value": 0.5,
+        "desc": "Instant",
+        "recommended": false,
+        "minPoints": 500,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "kotak-essentia": {
+    "id": "kotak-essentia",
+    "name": "Kotak Essentia Credit Card",
+    "image": "/cards/kotak-essentia.png",
+    "bank": "Kotak Mahindra Bank",
+    "pointCurrency": "Reward Points",
+    "rewardType": "points",
+    "baseValue": 0.25,
+    "bestOption": "Statement credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 0.25,
+        "desc": "2-3 days",
+        "recommended": false,
+        "minPoints": 2000,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "onecard-bob": {
+    "id": "onecard-bob",
+    "name": "OneCard BOB Credit Card",
+    "image": "/cards/onecard.png",
+    "bank": "Bank of Baroda",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "onecard-csb": {
+    "id": "onecard-csb",
+    "name": "OneCard CSB Credit Card",
+    "image": "/cards/onecard.png",
+    "bank": "CSB Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "onecard-federal": {
+    "id": "onecard-federal",
+    "name": "OneCard Federal Bank Credit Card",
+    "image": "/cards/onecard.png",
+    "bank": "Federal Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "onecard-indian-bank": {
+    "id": "onecard-indian-bank",
+    "name": "OneCard Indian Bank Credit Card",
+    "image": "/cards/onecard.png",
+    "bank": "Indian Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "onecard-sbm": {
+    "id": "onecard-sbm",
+    "name": "OneCard SBM Credit Card",
+    "image": "/cards/onecard.png",
+    "bank": "SBM Bank",
+    "pointCurrency": "Cashback",
+    "rewardType": "cashback",
+    "baseValue": 1,
+    "bestOption": "Statement Credit",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      {
+        "type": "Statement Credit",
+        "value": 1,
+        "desc": "Instant",
+        "recommended": true,
+        "minPoints": null,
+        "fee": null
+      }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "cred-indusind-rupay": {
+    "id": "cred-indusind-rupay",
+    "name": "CRED IndusInd RuPay Credit Card",
+    "image": "/cards/cred-indusind-rupay.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "CRED Points",
+    "rewardType": "points",
+    "baseValue": 1.0,
+    "bestOption": "CRED Cashback",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      { "type": "CRED Cashback", "value": 1.0, "desc": "Instant", "recommended": true, "minPoints": 100, "fee": null }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "indusind-avios-visa-infinite": {
+    "id": "indusind-avios-visa-infinite",
+    "name": "IndusInd Avios Visa Infinite Credit Card",
+    "image": "/cards/indusind-avios-visa-infinite.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "Avios",
+    "rewardType": "miles",
+    "baseValue": 1.0,
+    "bestOption": "Avios flight redemption",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      { "type": "Flight Redemption", "value": 1.0, "desc": "Instant on BA/Qatar", "recommended": true, "minPoints": 4500, "fee": null },
+      { "type": "Upgrades", "value": 0.7, "desc": "Subject to availability", "recommended": false, "minPoints": 5000, "fee": null }
+    ],
+    "transferPartners": [
+      { "name": "British Airways Executive Club", "ratio": "1:1", "type": "airline", "program": "" },
+      { "name": "Qatar Airways Privilege Club", "ratio": "1:1", "type": "airline", "program": "" }
+    ],
+    "restrictions": null
+  },
+  "indusind-sovereign": {
+    "id": "indusind-sovereign",
+    "name": "IndusInd Sovereign Credit Card",
+    "image": "/cards/indusind-sovereign.png",
+    "bank": "IndusInd Bank",
+    "pointCurrency": "IndusInd Sovereign Points",
+    "rewardType": "points",
+    "baseValue": 1.0,
+    "bestOption": "Airline Miles / Luxury Experiences",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      { "type": "Airline Miles", "value": 1.0, "desc": "3-5 days", "recommended": true, "minPoints": 1000, "fee": null },
+      { "type": "Luxury Experiences", "value": 1.0, "desc": "Via concierge", "recommended": false, "minPoints": 5000, "fee": null },
+      { "type": "Statement Credit", "value": 0.50, "desc": "Instant", "recommended": false, "minPoints": 2000, "fee": null }
+    ],
+    "transferPartners": [
+      { "name": "InterMiles", "ratio": "1:1", "type": "airline", "program": "" },
+      { "name": "Turkish Airlines Miles&Smiles", "ratio": "1:1", "type": "airline", "program": "" }
+    ],
+    "restrictions": null
+  },
+  "jupiter-edge-csb-rupay": {
+    "id": "jupiter-edge-csb-rupay",
+    "name": "Jupiter Edge CSB RuPay Credit Card",
+    "image": "/cards/jupiter-edge-csb-rupay.png",
+    "bank": "CSB Bank",
+    "pointCurrency": "Jewels",
+    "rewardType": "cashback",
+    "baseValue": 0.20,
+    "bestOption": "Direct Cashback",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      { "type": "Cashback", "value": 0.20, "desc": "Instant", "recommended": true, "minPoints": 50, "fee": null },
+      { "type": "Gold Purchase", "value": 0.20, "desc": "Via app", "recommended": false, "minPoints": 100, "fee": null }
+    ],
+    "transferPartners": [],
+    "restrictions": null
+  },
+  "rbl-nova": {
+    "id": "rbl-nova",
+    "name": "RBL Bank Nova Credit Card",
+    "image": "/cards/rbl-nova.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "RBL Reward Points",
+    "rewardType": "points",
+    "baseValue": 1.0,
+    "bestOption": "RBL Travel Portal",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      { "type": "RBL Travel Portal", "value": 1.0, "desc": "Instant", "recommended": true, "minPoints": 500, "fee": null },
+      { "type": "Airline Miles Transfer", "value": 0.5, "desc": "2 pts = 1 mile", "recommended": false, "minPoints": 1000, "fee": null },
+      { "type": "Gift Cards", "value": 1.0, "desc": "3-5 days", "recommended": false, "minPoints": 500, "fee": null }
+    ],
+    "transferPartners": [
+      { "name": "InterMiles", "ratio": "2:1", "type": "airline", "program": "" },
+      { "name": "Vistara CV Points", "ratio": "2:1", "type": "airline", "program": "" }
+    ],
+    "restrictions": null
+  },
+  "rbl-lumiere": {
+    "id": "rbl-lumiere",
+    "name": "RBL Bank Lumière Credit Card",
+    "image": "/cards/rbl-lumiere.png",
+    "bank": "RBL Bank",
+    "pointCurrency": "RBL Lumière Points",
+    "rewardType": "points",
+    "baseValue": 1.0,
+    "bestOption": "Airline Miles / Experiences",
+    "expiryMonths": null,
+    "expiryText": "Check card policy",
+    "options": [
+      { "type": "Airline Miles", "value": 1.0, "desc": "3-5 days", "recommended": true, "minPoints": 1000, "fee": null },
+      { "type": "Luxury Experiences", "value": 1.0, "desc": "Via concierge", "recommended": false, "minPoints": 5000, "fee": null },
+      { "type": "Gift Cards", "value": 1.0, "desc": "3-5 days", "recommended": false, "minPoints": 500, "fee": null }
+    ],
+    "transferPartners": [
+      { "name": "InterMiles", "ratio": "1:1", "type": "airline", "program": "" },
+      { "name": "Vistara CV Points", "ratio": "1:1", "type": "airline", "program": "" }
+    ],
+    "restrictions": null
+  }
+}

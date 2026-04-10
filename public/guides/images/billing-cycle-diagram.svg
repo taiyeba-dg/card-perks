@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f5f5; }
+      .timeline-line { stroke: #0f3460; stroke-width: 3; }
+      .event-circle { fill: #e94560; stroke: #1a1a2e; stroke-width: 2; }
+      .event-circle-2 { fill: #16213e; stroke: #1a1a2e; stroke-width: 2; }
+      .event-box { fill: #1a1a2e; stroke: #0f3460; stroke-width: 2; }
+      .grace-box { fill: rgba(233, 69, 96, 0.1); stroke: #e94560; stroke-width: 2; stroke-dasharray: 5,5; }
+      .text-white { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600; }
+      .text-heading { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 700; }
+      .text-date { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 700; text-anchor: middle; }
+      .text-label { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 600; text-anchor: middle; }
+      .text-desc { fill: #333; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" class="bg"/>
+
+  <!-- Title -->
+  <text x="400" y="50" class="text-heading" text-anchor="middle">Credit Card Billing Cycle</text>
+
+  <!-- Main Timeline Line -->
+  <line x1="100" y1="200" x2="700" y2="200" class="timeline-line"/>
+
+  <!-- Statement Date Event -->
+  <circle cx="100" cy="200" r="12" class="event-circle"/>
+  <rect x="50" y="240" width="100" height="80" rx="8" class="event-box"/>
+  <text x="100" y="260" class="text-white" text-anchor="middle">Statement</text>
+  <text x="100" y="280" class="text-white" text-anchor="middle">Date</text>
+  <text x="100" y="305" class="text-date" font-size="12">March 1</text>
+
+  <!-- Billing Period Event -->
+  <circle cx="250" cy="200" r="12" class="event-circle-2"/>
+  <rect x="200" y="240" width="100" height="80" rx="8" class="event-box"/>
+  <text x="250" y="265" class="text-white" text-anchor="middle">Billing</text>
+  <text x="250" y="285" class="text-white" text-anchor="middle">Period</text>
+  <text x="250" y="305" class="text-date" font-size="12">Mar 1-31</text>
+
+  <!-- Statement Generated Event -->
+  <circle cx="400" cy="200" r="12" class="event-circle"/>
+  <rect x="350" y="240" width="100" height="80" rx="8" class="event-box"/>
+  <text x="400" y="260" class="text-white" text-anchor="middle">Statement</text>
+  <text x="400" y="280" class="text-white" text-anchor="middle">Generated</text>
+  <text x="400" y="305" class="text-date" font-size="12">April 1</text>
+
+  <!-- Due Date Event -->
+  <circle cx="550" cy="200" r="12" class="event-circle-2"/>
+  <rect x="500" y="240" width="100" height="80" rx="8" class="event-box"/>
+  <text x="550" y="265" class="text-white" text-anchor="middle">Payment</text>
+  <text x="550" y="285" class="text-white" text-anchor="middle">Due Date</text>
+  <text x="550" y="305" class="text-date" font-size="12">April 20</text>
+
+  <!-- Grace Period -->
+  <path d="M 100 380 Q 400 350 700 380" stroke="#e94560" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <rect x="150" y="350" width="500" height="60" rx="8" class="grace-box"/>
+  <text x="400" y="380" class="text-label">Grace Period (20 Days) - Interest-Free Window</text>
+
+  <!-- Key Numbers Box -->
+  <rect x="50" y="470" width="700" height="100" rx="10" fill="#16213e" stroke="#0f3460" stroke-width="2"/>
+  <text x="400" y="495" class="text-heading" text-anchor="middle" fill="white">Key Dates & Numbers</text>
+
+  <g class="text-white" font-size="14">
+    <text x="70" y="525" fill="white">Statement Generation: 1-5 days after billing cycle ends</text>
+    <text x="70" y="550" fill="white">Grace Period: 20 days from statement date (interest-free)</text>
+  </g>
+
+  <!-- Timeline Indicator -->
+  <text x="400" y="130" class="text-label">Days Flow →</text>
+</svg>

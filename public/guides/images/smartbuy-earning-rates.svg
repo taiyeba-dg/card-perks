@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="800" height="550">
+  <!-- Background -->
+  <rect width="800" height="550" fill="#f5f5f5"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-size="28" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+    SmartBuy Earning Rates by Card Tier
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="65" font-size="12" fill="#16213e" text-anchor="middle">
+    Points multipliers &amp; effective redemption value via SmartBuy
+  </text>
+
+  <!-- Card 1: HDFC Infinia -->
+  <g id="card1">
+    <text x="50" y="110" font-size="14" font-weight="bold" fill="#0f3460">HDFC Infinia</text>
+
+    <!-- Multiplier -->
+    <rect x="50" y="125" width="280" height="35" fill="#0f3460" rx="4"/>
+    <text x="60" y="150" font-size="13" fill="white" font-weight="bold">Flights: 4X + 1X Base</text>
+    <text x="185" y="150" font-size="18" font-weight="bold" fill="#e94560">=5X</text>
+
+    <!-- Redemption value -->
+    <text x="50" y="180" font-size="12" fill="#1a1a2e">
+      <tspan font-weight="bold">SmartBuy Value:</tspan> ₹1/point via SmartBuy
+    </text>
+
+    <!-- Point cap -->
+    <text x="50" y="202" font-size="12" fill="#16213e">
+      <tspan font-weight="bold">Earning Cap:</tspan> ₹1,40,625 flight spend
+    </text>
+    <text x="50" y="220" font-size="11" fill="#16213e" font-style="italic">
+      (7,500 RP cap on accelerated points)
+    </text>
+  </g>
+
+  <!-- Card 2: HDFC DCB -->
+  <g id="card2">
+    <text x="380" y="110" font-size="14" font-weight="bold" fill="#0f3460">HDFC DCB</text>
+
+    <!-- Multiplier -->
+    <rect x="380" y="125" width="280" height="35" fill="#0f3460" rx="4"/>
+    <text x="390" y="150" font-size="13" fill="white" font-weight="bold">Flights: 4X + 1X Base</text>
+    <text x="505" y="150" font-size="18" font-weight="bold" fill="#e94560">=5X</text>
+
+    <!-- Redemption value -->
+    <text x="380" y="180" font-size="12" fill="#1a1a2e">
+      <tspan font-weight="bold">SmartBuy Value:</tspan> ₹1/point via SmartBuy
+    </text>
+
+    <!-- Point cap -->
+    <text x="380" y="202" font-size="12" fill="#16213e">
+      <tspan font-weight="bold">Earning Cap:</tspan> ₹1,40,625 flight spend
+    </text>
+    <text x="380" y="220" font-size="11" fill="#16213e" font-style="italic">
+      (7,500 RP cap on accelerated points)
+    </text>
+  </g>
+
+  <!-- Card 3: HDFC Regalia Gold -->
+  <g id="card3">
+    <text x="50" y="280" font-size="14" font-weight="bold" fill="#0f3460">HDFC Regalia Gold</text>
+
+    <!-- Multiplier -->
+    <rect x="50" y="295" width="280" height="35" fill="#e94560" rx="4"/>
+    <text x="60" y="320" font-size="16" fill="white" font-weight="bold">3X</text>
+    <text x="160" y="320" font-size="12" fill="white">SmartBuy Flights</text>
+
+    <!-- Redemption value -->
+    <text x="50" y="350" font-size="12" fill="#1a1a2e">
+      <tspan font-weight="bold">SmartBuy Value:</tspan> ₹0.75-1.00/point
+    </text>
+
+    <!-- Point cap -->
+    <text x="50" y="372" font-size="12" fill="#16213e">
+      <tspan font-weight="bold">Earning Cap:</tspan> ₹62,500 hotel spend
+    </text>
+    <text x="50" y="390" font-size="11" fill="#16213e" font-style="italic">
+      (3,000 RP cap on accelerated points)
+    </text>
+  </g>
+
+  <!-- Card 4: HDFC Regalia -->
+  <g id="card4">
+    <text x="380" y="280" font-size="14" font-weight="bold" fill="#0f3460">HDFC Regalia</text>
+
+    <!-- Multiplier -->
+    <rect x="380" y="295" width="280" height="35" fill="#e94560" rx="4"/>
+    <text x="390" y="320" font-size="16" fill="white" font-weight="bold">3X</text>
+    <text x="490" y="320" font-size="12" fill="white">SmartBuy Travel</text>
+
+    <!-- Redemption value -->
+    <text x="380" y="350" font-size="12" fill="#1a1a2e">
+      <tspan font-weight="bold">SmartBuy Value:</tspan> ₹0.75/point
+    </text>
+
+    <!-- Point cap -->
+    <text x="380" y="372" font-size="12" fill="#16213e">
+      <tspan font-weight="bold">Earning Cap:</tspan> ₹1,40,625 travel
+    </text>
+    <text x="380" y="390" font-size="11" fill="#16213e" font-style="italic">
+      (varies by category)
+    </text>
+  </g>
+
+  <!-- Important notes section -->
+  <rect x="30" y="440" width="740" height="95" fill="white" stroke="#16213e" stroke-width="1" rx="6"/>
+
+  <text x="50" y="465" font-size="13" font-weight="bold" fill="#1a1a2e">Key Points:</text>
+
+  <text x="50" y="485" font-size="11" fill="#1a1a2e">
+    <tspan>• Infinia/DCB offer 5X on flights via SmartBuy = maximum value tier</tspan>
+  </text>
+
+  <text x="50" y="505" font-size="11" fill="#1a1a2e">
+    <tspan>• 7,500 RP cap per statement = ~₹1,40,625 in accelerated earning for top cards</tspan>
+  </text>
+
+  <text x="50" y="525" font-size="11" fill="#1a1a2e">
+    <tspan>• SmartBuy redemption (₹1/point) beats cash (₹0.50) for premium cardholders</tspan>
+  </text>
+</svg>
