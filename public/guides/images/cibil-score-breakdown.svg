@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f5f5; }
+      .text-heading { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 700; }
+      .text-label { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 600; }
+      .text-percent { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 700; text-anchor: middle; }
+      .text-white { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
+      .legend-item { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="700" class="bg"/>
+
+  <!-- Title -->
+  <text x="400" y="50" class="text-heading" text-anchor="middle">CIBIL Score Composition</text>
+
+  <!-- Donut Chart Center -->
+  <g transform="translate(300, 280)">
+    <!-- Payment History 35% (Blue) -->
+    <path d="M 0,-120 A 120,120 0 0,1 70.6,-100.4 L 34.5,-49 A 60,60 0 0,0 0,-60 Z" fill="#0f3460" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="0" y="-85" class="text-percent">35%</text>
+
+    <!-- Credit Utilization 25% (Coral) -->
+    <path d="M 70.6,-100.4 A 120,120 0 0,1 120,8.5 L 60,4.2 A 60,60 0 0,0 34.5,-49 Z" fill="#e94560" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="75" y="-40" class="text-percent">25%</text>
+
+    <!-- Credit Length 15% (Dark Navy) -->
+    <path d="M 120,8.5 A 120,120 0 0,1 55.4,107.3 L 27.7,53.7 A 60,60 0 0,0 60,4.2 Z" fill="#1a1a2e" stroke="#0f3460" stroke-width="2"/>
+    <text x="80" y="55" class="text-percent">15%</text>
+
+    <!-- Credit Mix 15% (Medium Blue) -->
+    <path d="M 55.4,107.3 A 120,120 0 0,1 -55.4,107.3 L -27.7,53.7 A 60,60 0 0,0 27.7,53.7 Z" fill="#16213e" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="0" y="115" class="text-percent">15%</text>
+
+    <!-- New Inquiries 10% (Light Navy) -->
+    <path d="M -55.4,107.3 A 120,120 0 0,1 0,-120 L 0,-60 A 60,60 0 0,0 -27.7,53.7 Z" fill="#0a2540" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="-50" y="30" class="text-percent">10%</text>
+
+    <!-- Center white circle for donut effect -->
+    <circle cx="0" cy="0" r="50" fill="#f5f5f5" stroke="#1a1a2e" stroke-width="2"/>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(520, 200)">
+    <!-- Payment History -->
+    <rect x="0" y="0" width="15" height="15" fill="#0f3460" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="25" y="13" class="legend-item">Payment History (35%)</text>
+    <text x="25" y="28" class="text-white" font-size="11">On-time payments, defaults</text>
+
+    <!-- Credit Utilization -->
+    <rect x="0" y="45" width="15" height="15" fill="#e94560" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="25" y="58" class="legend-item">Credit Utilization (25%)</text>
+    <text x="25" y="73" class="text-white" font-size="11">Usage vs credit limit</text>
+
+    <!-- Credit Length -->
+    <rect x="0" y="90" width="15" height="15" fill="#1a1a2e" stroke="#0f3460" stroke-width="1"/>
+    <text x="25" y="103" class="legend-item">Credit Length (15%)</text>
+    <text x="25" y="118" class="text-white" font-size="11">Age of credit accounts</text>
+
+    <!-- Credit Mix -->
+    <rect x="0" y="135" width="15" height="15" fill="#16213e" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="25" y="148" class="legend-item">Credit Mix (15%)</text>
+    <text x="25" y="163" class="text-white" font-size="11">Variety of credit types</text>
+
+    <!-- New Inquiries -->
+    <rect x="0" y="180" width="15" height="15" fill="#0a2540" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="25" y="193" class="legend-item">New Inquiries (10%)</text>
+    <text x="25" y="208" class="text-white" font-size="11">Recent credit applications</text>
+  </g>
+
+  <!-- Score Ranges Box -->
+  <rect x="50" y="550" width="700" height="120" rx="10" fill="#16213e" stroke="#0f3460" stroke-width="2"/>
+  <text x="400" y="575" class="text-heading" text-anchor="middle" fill="white">CIBIL Score Ranges</text>
+
+  <g class="legend-item" fill="white" font-size="13">
+    <text x="70" y="610">300-549: Poor</text>
+    <text x="250" y="610">550-649: Fair</text>
+    <text x="430" y="610">650-749: Good</text>
+    <text x="610" y="610">750-900: Excellent</text>
+    <text x="70" y="635">Target for card approval: 650+ (Good score recommended for better card options)</text>
+  </g>
+</svg>

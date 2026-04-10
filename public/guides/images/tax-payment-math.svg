@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-size="28" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+    Tax Payment via Credit Card Math
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="65" font-size="12" fill="#16213e" text-anchor="middle">
+    Calculate your net benefit when paying taxes with credit cards
+  </text>
+
+  <!-- Fee structure explanation -->
+  <rect x="50" y="85" width="700" height="65" fill="white" stroke="#16213e" stroke-width="2" rx="6"/>
+
+  <text x="70" y="110" font-size="13" font-weight="bold" fill="#1a1a2e">Flat Tax Payment Fee Structure:</text>
+
+  <text x="70" y="135" font-size="12" fill="#1a1a2e">
+    <tspan font-weight="bold">Base Processing Fee:</tspan> 1% (flat)
+  </text>
+
+  <text x="70" y="153" font-size="12" fill="#1a1a2e">
+    <tspan font-weight="bold">GST on Fee:</tspan> 18% (applied to 1% fee)
+  </text>
+
+  <text x="450" y="135" font-size="14" font-weight="bold" fill="#e94560">
+    Total Cost: 1.18%
+  </text>
+
+  <!-- Sample calculation base -->
+  <text x="50" y="185" font-size="13" font-weight="bold" fill="#1a1a2e">
+    Example: ₹1,00,000 Tax Payment
+  </text>
+
+  <!-- Card A: HDFC Infinia -->
+  <g id="card-a">
+    <rect x="50" y="210" width="320" height="170" fill="white" stroke="#0f3460" stroke-width="2" rx="6"/>
+
+    <text x="70" y="235" font-size="14" font-weight="bold" fill="#0f3460">HDFC Infinia</text>
+
+    <!-- Calculation -->
+    <text x="70" y="260" font-size="11" fill="#1a1a2e">
+      <tspan>Amount Paid:</tspan>
+      <tspan x="220" dy="0" text-anchor="end">₹1,00,000</tspan>
+    </text>
+
+    <text x="70" y="280" font-size="11" fill="#1a1a2e">
+      <tspan>Card Cashback:</tspan>
+      <tspan x="220" dy="0" text-anchor="end">3.3%</tspan>
+    </text>
+
+    <line x1="70" y1="290" x2="320" y2="290" stroke="#16213e" stroke-width="1"/>
+
+    <text x="70" y="310" font-size="11" fill="#1a1a2e">
+      <tspan>Cashback Earned:</tspan>
+      <tspan x="220" dy="0" text-anchor="end">₹3,300</tspan>
+    </text>
+
+    <text x="70" y="330" font-size="11" fill="#1a1a2e">
+      <tspan>Tax Fee (1.18%):</tspan>
+      <tspan x="220" dy="0" text-anchor="end">-₹1,180</tspan>
+    </text>
+
+    <line x1="70" y1="340" x2="320" y2="340" stroke="#0f3460" stroke-width="2"/>
+
+    <text x="70" y="362" font-size="13" font-weight="bold" fill="#0f3460">
+      <tspan>NET PROFIT:</tspan>
+      <tspan x="220" dy="0" text-anchor="end" fill="#16213e">₹2,120</tspan>
+    </text>
+
+    <!-- Status -->
+    <text x="70" y="382" font-size="12" fill="white" font-weight="bold">
+      <tspan>✓ WORTH IT</tspan>
+    </text>
+    <rect x="65" y="377" width="120" height="20" fill="#16213e" rx="3" z-index="-1"/>
+  </g>
+
+  <!-- Card B: Axis ACE -->
+  <g id="card-b">
+    <rect x="430" y="210" width="320" height="170" fill="white" stroke="#e94560" stroke-width="2" rx="6"/>
+
+    <text x="450" y="235" font-size="14" font-weight="bold" fill="#e94560">Axis ACE</text>
+
+    <!-- Calculation -->
+    <text x="450" y="260" font-size="11" fill="#1a1a2e">
+      <tspan>Amount Paid:</tspan>
+      <tspan x="600" dy="0" text-anchor="end">₹1,00,000</tspan>
+    </text>
+
+    <text x="450" y="280" font-size="11" fill="#1a1a2e">
+      <tspan>Card Cashback:</tspan>
+      <tspan x="600" dy="0" text-anchor="end">2%</tspan>
+    </text>
+
+    <line x1="450" y1="290" x2="700" y2="290" stroke="#16213e" stroke-width="1"/>
+
+    <text x="450" y="310" font-size="11" fill="#1a1a2e">
+      <tspan>Cashback Earned:</tspan>
+      <tspan x="600" dy="0" text-anchor="end">₹2,000</tspan>
+    </text>
+
+    <text x="450" y="330" font-size="11" fill="#1a1a2e">
+      <tspan>Tax Fee (1.18%):</tspan>
+      <tspan x="600" dy="0" text-anchor="end">-₹1,180</tspan>
+    </text>
+
+    <line x1="450" y1="340" x2="700" y2="340" stroke="#e94560" stroke-width="2"/>
+
+    <text x="450" y="362" font-size="13" font-weight="bold" fill="#e94560">
+      <tspan>NET PROFIT:</tspan>
+      <tspan x="600" dy="0" text-anchor="end" fill="#16213e">₹820</tspan>
+    </text>
+
+    <!-- Status -->
+    <text x="450" y="382" font-size="12" fill="white" font-weight="bold">
+      <tspan>✓ WORTH IT</tspan>
+    </text>
+    <rect x="445" y="377" width="120" height="20" fill="#16213e" rx="3"/>
+  </g>
+
+  <!-- Card C: Generic Standard Card -->
+  <g id="card-c">
+    <rect x="50" y="410" width="700" height="170" fill="white" stroke="#16213e" stroke-width="2" rx="6"/>
+
+    <text x="70" y="435" font-size="14" font-weight="bold" fill="#1a1a2e">Generic Standard Card</text>
+
+    <!-- Calculation -->
+    <text x="70" y="460" font-size="11" fill="#1a1a2e">
+      <tspan>Amount Paid:</tspan>
+      <tspan x="720" dy="0" text-anchor="end">₹1,00,000</tspan>
+    </text>
+
+    <text x="70" y="480" font-size="11" fill="#1a1a2e">
+      <tspan>Card Cashback:</tspan>
+      <tspan x="720" dy="0" text-anchor="end">1% (or none)</tspan>
+    </text>
+
+    <line x1="70" y1="490" x2="720" y2="490" stroke="#16213e" stroke-width="1"/>
+
+    <text x="70" y="510" font-size="11" fill="#1a1a2e">
+      <tspan>Cashback Earned:</tspan>
+      <tspan x="720" dy="0" text-anchor="end">₹1,000</tspan>
+    </text>
+
+    <text x="70" y="530" font-size="11" fill="#1a1a2e">
+      <tspan>Tax Fee (1.18%):</tspan>
+      <tspan x="720" dy="0" text-anchor="end">-₹1,180</tspan>
+    </text>
+
+    <line x1="70" y1="540" x2="720" y2="540" stroke="#1a1a2e" stroke-width="2"/>
+
+    <text x="70" y="562" font-size="13" font-weight="bold" fill="#1a1a2e">
+      <tspan>NET LOSS:</tspan>
+      <tspan x="720" dy="0" text-anchor="end" fill="#e94560">-₹180</tspan>
+    </text>
+
+    <!-- Status -->
+    <text x="70" y="582" font-size="12" fill="white" font-weight="bold">
+      <tspan>✗ NOT WORTH IT</tspan>
+    </text>
+    <rect x="65" y="577" width="140" height="20" fill="#e94560" rx="3"/>
+  </g>
+</svg>

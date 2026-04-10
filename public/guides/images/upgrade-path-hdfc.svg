@@ -1,0 +1,118 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f5f5; }
+      .text-heading { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 700; }
+      .text-title { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 700; text-anchor: middle; }
+      .text-white { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; font-weight: 600; text-anchor: middle; }
+      .text-label { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 600; text-anchor: middle; }
+      .card-box { stroke: #0f3460; stroke-width: 2; }
+      .card-1 { fill: #1a1a2e; }
+      .card-2 { fill: #16213e; }
+      .card-3 { fill: #0f3460; }
+      .card-4 { fill: #e94560; }
+      .card-5 { fill: #c92a47; }
+      .arrow-line { stroke: #0f3460; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .requirement-box { fill: rgba(233, 69, 96, 0.1); stroke: #e94560; stroke-width: 1; stroke-dasharray: 3,3; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#0f3460" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" class="bg"/>
+
+  <!-- Title -->
+  <text x="400" y="50" class="text-heading" text-anchor="middle">HDFC Credit Card Upgrade Path</text>
+
+  <!-- Card 1: Millennia -->
+  <rect x="30" y="120" width="130" height="180" rx="8" class="card-box card-1"/>
+  <text x="95" y="155" class="text-title">HDFC</text>
+  <text x="95" y="175" class="text-title">Millennia</text>
+
+  <rect x="40" y="190" width="110" height="50" rx="6" fill="#0a7d2f"/>
+  <text x="95" y="215" class="text-white">Entry Level</text>
+  <text x="95" y="230" class="text-white">First Card</text>
+
+  <rect x="40" y="250" width="110" height="35" rx="6" class="requirement-box"/>
+  <text x="95" y="273" class="text-label">₹15-25L Income</text>
+
+  <!-- Arrow 1 -->
+  <path d="M 160 210 L 200 210" class="arrow-line"/>
+
+  <!-- Card 2: Regalia -->
+  <rect x="200" y="120" width="130" height="180" rx="8" class="card-box card-2"/>
+  <text x="265" y="155" class="text-title">HDFC</text>
+  <text x="265" y="175" class="text-title">Regalia</text>
+
+  <rect x="210" y="190" width="110" height="50" rx="6" fill="#0a7d2f"/>
+  <text x="265" y="210" class="text-white">Travel</text>
+  <text x="265" y="230" class="text-white">Rewards</text>
+
+  <rect x="210" y="250" width="110" height="35" rx="6" class="requirement-box"/>
+  <text x="265" y="273" class="text-label">₹30L+ Income</text>
+
+  <!-- Arrow 2 -->
+  <path d="M 330 210 L 370 210" class="arrow-line"/>
+
+  <!-- Card 3: Regalia Gold -->
+  <rect x="370" y="120" width="130" height="180" rx="8" class="card-box card-3"/>
+  <text x="435" y="155" class="text-title">HDFC</text>
+  <text x="435" y="175" class="text-title">Regalia</text>
+  <text x="435" y="192" class="text-title">Gold</text>
+
+  <rect x="380" y="205" width="110" height="45" rx="6" fill="#0a7d2f"/>
+  <text x="435" y="228" class="text-white">Premium</text>
+  <text x="435" y="243" class="text-white">Travel</text>
+
+  <rect x="380" y="260" width="110" height="35" rx="6" class="requirement-box"/>
+  <text x="435" y="283" class="text-label">₹50L+ Income</text>
+
+  <!-- Arrow 3 -->
+  <path d="M 500 210 L 540 210" class="arrow-line"/>
+
+  <!-- Card 4: Diners Club Black -->
+  <rect x="540" y="120" width="130" height="180" rx="8" class="card-box card-4"/>
+  <text x="605" y="155" class="text-title">HDFC</text>
+  <text x="605" y="175" class="text-title">Diners Club</text>
+  <text x="605" y="192" class="text-title">Black</text>
+
+  <rect x="550" y="205" width="110" height="45" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <text x="605" y="228" class="text-white">Elite</text>
+  <text x="605" y="243" class="text-white">Lounge Access</text>
+
+  <rect x="550" y="260" width="110" height="35" rx="6" class="requirement-box"/>
+  <text x="605" y="283" class="text-label">₹50L+ Spend</text>
+
+  <!-- Arrow 4 -->
+  <path d="M 670 210 L 710 210" class="arrow-line"/>
+
+  <!-- Card 5: Infinia -->
+  <rect x="710" y="120" width="60" height="180" rx="8" class="card-box card-5"/>
+  <text x="740" y="165" class="text-title" font-size="13">HDFC</text>
+  <text x="740" y="185" class="text-title" font-size="13">Infinia</text>
+
+  <rect x="720" y="205" width="40" height="45" rx="4" fill="rgba(255,255,255,0.2)"/>
+  <text x="740" y="233" class="text-white" font-size="10">Ultra</text>
+  <text x="740" y="243" class="text-white" font-size="10">Premium</text>
+
+  <rect x="715" y="260" width="50" height="35" rx="4" class="requirement-box"/>
+  <text x="740" y="280" class="text-label" font-size="10">₹1Cr+ Wealth</text>
+
+  <!-- Legend/Info Box -->
+  <rect x="30" y="350" width="740" height="220" rx="10" fill="#16213e" stroke="#0f3460" stroke-width="2"/>
+
+  <text x="400" y="380" class="text-title" text-anchor="middle" font-size="16">Upgrade Requirements & Benefits</text>
+
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600">
+    <text x="50" y="410" fill="white">Millennia → Regalia: Minimum ₹30L annual income, active usage for 6-12 months</text>
+    <text x="50" y="435" fill="white">Regalia → Regalia Gold: ₹50L+ income or ₹1L+ annual spend on card</text>
+    <text x="50" y="460" fill="white">Regalia Gold → Diners Black: Bank invitation based on credit profile and spend patterns</text>
+    <text x="50" y="485" fill="white">Diners Black → Infinia: Invitation-only based on ₹50L+ annual spend and wealth indicators</text>
+
+    <text x="50" y="520" fill="#e94560" font-weight="700">Pro Tip:</text>
+    <text x="50" y="545" fill="white">Start with Millennia if you're a first-time cardholder, then graduate based on spend and income growth</text>
+    <text x="50" y="555" fill="white">Timeline: Each upgrade takes 12-24 months of active usage and meeting eligibility criteria</text>
+  </g>
+</svg>

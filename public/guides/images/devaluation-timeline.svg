@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f5f5f5"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-size="28" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+    Major Devaluations Timeline
+  </text>
+
+  <!-- Timeline main line -->
+  <line x1="80" y1="280" x2="750" y2="280" stroke="#16213e" stroke-width="3"/>
+
+  <!-- Event 1: June 2025 -->
+  <g id="event1">
+    <circle cx="120" cy="280" r="10" fill="#e94560" stroke="#1a1a2e" stroke-width="2"/>
+
+    <text x="120" y="330" font-size="12" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+      Jun 2025
+    </text>
+
+    <!-- Event label above -->
+    <rect x="50" y="200" width="140" height="60" fill="white" stroke="#e94560" stroke-width="2" rx="4"/>
+    <text x="120" y="222" font-size="11" font-weight="bold" fill="#e94560" text-anchor="middle">
+      Amex Removes
+    </text>
+    <text x="120" y="238" font-size="11" fill="#1a1a2e" text-anchor="middle">
+      Fuel Points
+    </text>
+    <text x="120" y="254" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      Program ends
+    </text>
+
+    <!-- Connector line -->
+    <line x1="120" y1="265" x2="120" y2="200" stroke="#e94560" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Event 2: Sept 2025 -->
+  <g id="event2">
+    <circle cx="250" cy="280" r="10" fill="#e94560" stroke="#1a1a2e" stroke-width="2"/>
+
+    <text x="250" y="330" font-size="12" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+      Sep 2025
+    </text>
+
+    <!-- Event label below -->
+    <rect x="180" y="350" width="140" height="75" fill="white" stroke="#e94560" stroke-width="2" rx="4"/>
+    <text x="250" y="368" font-size="11" font-weight="bold" fill="#e94560" text-anchor="middle">
+      DreamFolks Loses
+    </text>
+    <text x="250" y="384" font-size="11" fill="#1a1a2e" text-anchor="middle">
+      Adani Contract
+    </text>
+    <text x="250" y="403" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      Lounge access cut
+    </text>
+    <text x="250" y="418" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      for affected cards
+    </text>
+
+    <!-- Connector line -->
+    <line x1="250" y1="295" x2="250" y2="350" stroke="#e94560" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Event 3: Nov 2025 -->
+  <g id="event3">
+    <circle cx="380" cy="280" r="10" fill="#e94560" stroke="#1a1a2e" stroke-width="2"/>
+
+    <text x="380" y="330" font-size="12" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+      Nov 2025
+    </text>
+
+    <!-- Event label above -->
+    <rect x="310" y="190" width="140" height="75" fill="white" stroke="#e94560" stroke-width="2" rx="4"/>
+    <text x="380" y="208" font-size="11" font-weight="bold" fill="#e94560" text-anchor="middle">
+      DreamFolks Loses
+    </text>
+    <text x="380" y="224" font-size="11" fill="#1a1a2e" text-anchor="middle">
+      Encalm Contract
+    </text>
+    <text x="380" y="243" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      Infinia lounge
+    </text>
+    <text x="380" y="258" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      benefits cut
+    </text>
+
+    <!-- Connector line -->
+    <line x1="380" y1="265" x2="380" y2="190" stroke="#e94560" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Event 4: Jan 2026 -->
+  <g id="event4">
+    <circle cx="510" cy="280" r="10" fill="#e94560" stroke="#1a1a2e" stroke-width="2"/>
+
+    <text x="510" y="330" font-size="12" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+      Jan 2026
+    </text>
+
+    <!-- Event label below -->
+    <rect x="440" y="350" width="140" height="75" fill="white" stroke="#e94560" stroke-width="2" rx="4"/>
+    <text x="510" y="368" font-size="11" font-weight="bold" fill="#e94560" text-anchor="middle">
+      ICICI Transport
+    </text>
+    <text x="510" y="384" font-size="11" fill="#1a1a2e" text-anchor="middle">
+      Cap Introduced
+    </text>
+    <text x="510" y="403" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      ₹20K annual limit
+    </text>
+    <text x="510" y="418" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      on cashback
+    </text>
+
+    <!-- Connector line -->
+    <line x1="510" y1="295" x2="510" y2="350" stroke="#e94560" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Event 5: Feb 2026 -->
+  <g id="event5">
+    <circle cx="640" cy="280" r="10" fill="#e94560" stroke="#1a1a2e" stroke-width="2"/>
+
+    <text x="640" y="330" font-size="12" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+      Feb 2026
+    </text>
+
+    <!-- Event label above -->
+    <rect x="570" y="175" width="140" height="90" fill="white" stroke="#e94560" stroke-width="2" rx="4"/>
+    <text x="640" y="193" font-size="11" font-weight="bold" fill="#e94560" text-anchor="middle">
+      ICICI BookMyShow
+    </text>
+    <text x="640" y="209" font-size="11" fill="#1a1a2e" text-anchor="middle">
+      Threshold Raised
+    </text>
+    <text x="640" y="228" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      Now ₹25K spend
+    </text>
+    <text x="640" y="243" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      required for ₹1,000
+    </text>
+    <text x="640" y="258" font-size="10" fill="#16213e" text-anchor="middle" font-style="italic">
+      voucher benefit
+    </text>
+
+    <!-- Connector line -->
+    <line x1="640" y1="265" x2="640" y2="175" stroke="#e94560" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Event 6: 2026 Additional -->
+  <g id="event6">
+    <circle cx="710" cy="280" r="10" fill="#e94560" stroke="#1a1a2e" stroke-width="2"/>
+
+    <text x="710" y="330" font-size="12" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+      2026
+    </text>
+
+    <!-- Event label below -->
+    <rect x="640" y="350" width="140" height="90" fill="white" stroke="#e94560" stroke-width="2" rx="4"/>
+    <text x="710" y="368" font-size="10" font-weight="bold" fill="#e94560" text-anchor="middle">
+      IDFC FIRST: 1% Fee
+    </text>
+    <text x="710" y="384" font-size="10" fill="#1a1a2e" text-anchor="middle">
+      on Education (New)
+    </text>
+
+    <text x="710" y="408" font-size="10" font-weight="bold" fill="#e94560" text-anchor="middle">
+      Axis ACE: Lounge
+    </text>
+    <text x="710" y="424" font-size="10" fill="#1a1a2e" text-anchor="middle">
+      ₹1.5L spend req.
+    </text>
+
+    <!-- Connector line -->
+    <line x1="710" y1="295" x2="710" y2="350" stroke="#e94560" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Bottom note -->
+  <rect x="30" y="445" width="740" height="45" fill="white" stroke="#16213e" stroke-width="1" rx="4"/>
+  <text x="50" y="468" font-size="12" fill="#1a1a2e" font-weight="bold">
+    Trend: Issuers reducing benefits as costs rise. Monitor cards for further changes.
+  </text>
+</svg>

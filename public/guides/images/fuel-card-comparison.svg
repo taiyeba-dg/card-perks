@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f5f5f5"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-size="28" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+    Fuel Card Comparison
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="65" font-size="12" fill="#16213e" text-anchor="middle">
+    Surcharge Waiver Benefits &amp; Annual Fee
+  </text>
+
+  <!-- Card 1: BPCL SBI Octane -->
+  <g id="card1">
+    <text x="50" y="110" font-size="14" font-weight="bold" fill="#1a1a2e">BPCL SBI Octane</text>
+
+    <!-- Rate bar -->
+    <rect x="50" y="125" width="650" height="25" fill="#0f3460"/>
+    <text x="705" y="143" font-size="14" font-weight="bold" fill="#e94560">7.25%</text>
+    <text x="60" y="143" font-size="13" fill="white" font-weight="500">Surcharge Waiver at BPCL</text>
+
+    <!-- Fee -->
+    <text x="50" y="170" font-size="12" fill="#1a1a2e">
+      <tspan font-weight="bold">Annual Fee:</tspan> ₹1,769
+    </text>
+  </g>
+
+  <!-- Card 2: IndianOil HDFC -->
+  <g id="card2">
+    <text x="50" y="205" font-size="14" font-weight="bold" fill="#1a1a2e">IndianOil HDFC</text>
+
+    <!-- Rate bar -->
+    <rect x="50" y="220" width="360" height="25" fill="#0f3460"/>
+    <text x="415" y="238" font-size="14" font-weight="bold" fill="#e94560">5%</text>
+    <text x="60" y="238" font-size="13" fill="white" font-weight="500">Surcharge Waiver at IndianOil</text>
+
+    <!-- Fee -->
+    <text x="50" y="265" font-size="12" fill="#1a1a2e">
+      <tspan font-weight="bold">Annual Fee:</tspan> ₹500
+    </text>
+  </g>
+
+  <!-- Card 3: IDFC FIRST -->
+  <g id="card3">
+    <text x="50" y="300" font-size="14" font-weight="bold" fill="#1a1a2e">IDFC FIRST (Premium)</text>
+
+    <!-- Rate bar -->
+    <rect x="50" y="315" width="216" height="25" fill="#e94560"/>
+    <text x="271" y="333" font-size="14" font-weight="bold" fill="#1a1a2e">₹300/cycle</text>
+    <text x="60" y="333" font-size="13" fill="white" font-weight="500">Surcharge Waiver</text>
+
+    <!-- Details -->
+    <text x="50" y="360" font-size="12" fill="#16213e">
+      <tspan>Up to ₹30,000 fuel per statement cycle at participating pumps</tspan>
+    </text>
+  </g>
+
+  <!-- Card 4: Standard Cards -->
+  <g id="card4">
+    <text x="50" y="395" font-size="14" font-weight="bold" fill="#1a1a2e">Most Standard Cards</text>
+
+    <!-- Rate bar -->
+    <rect x="50" y="410" width="72" height="25" fill="#16213e"/>
+    <text x="127" y="428" font-size="14" font-weight="bold" fill="#e94560">1%</text>
+    <text x="60" y="428" font-size="13" fill="white" font-weight="500">Waiver Capped</text>
+
+    <!-- Details -->
+    <text x="50" y="455" font-size="12" fill="#16213e">
+      <tspan>Typically ₹250/month cap (~₹3,000/year)</tspan>
+    </text>
+  </g>
+
+  <!-- Comparison note -->
+  <rect x="50" y="475" width="700" height="20" fill="#f5f5f5" stroke="#16213e" stroke-width="1"/>
+  <text x="60" y="490" font-size="11" fill="#1a1a2e">
+    <tspan font-weight="bold">Note:</tspan> Benefits shown are for fuel transactions. Premium cards offer better rates despite higher annual fees.
+  </text>
+</svg>

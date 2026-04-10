@@ -1,0 +1,124 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f5f5; }
+      .text-heading { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 700; }
+      .text-title { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 700; }
+      .text-white { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .text-label { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 700; text-anchor: middle; }
+      .text-desc { fill: #666; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .card-box { stroke: #0f3460; stroke-width: 2; }
+      .category-badge { fill: #e94560; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="900" class="bg"/>
+
+  <!-- Title -->
+  <text x="400" y="50" class="text-heading" text-anchor="middle">Strategic Card Wallet Planning</text>
+
+  <!-- 2-Card Strategy -->
+  <text x="400" y="120" class="text-label">2-Card Wallet (Starter)</text>
+
+  <!-- Card 1: Amazon Pay ICICI -->
+  <rect x="100" y="150" width="140" height="200" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="170" y="175" class="text-title" text-anchor="middle">Amazon Pay</text>
+  <text x="170" y="195" class="text-white" text-anchor="middle" font-size="14">ICICI</text>
+  <rect x="105" y="210" width="130" height="50" rx="6" fill="#16213e"/>
+  <text x="170" y="235" class="text-white" text-anchor="middle">Flat 2%</text>
+  <text x="170" y="255" class="text-white" text-anchor="middle">Rewards</text>
+  <rect x="105" y="270" width="130" height="30" rx="6" class="category-badge"/>
+  <text x="170" y="291" class="text-white" text-anchor="middle" font-size="12">Online Shopping</text>
+
+  <!-- Card 2: HDFC Regalia -->
+  <rect x="560" y="150" width="140" height="200" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="630" y="175" class="text-title" text-anchor="middle">HDFC</text>
+  <text x="630" y="195" class="text-white" text-anchor="middle" font-size="14">Regalia</text>
+  <rect x="565" y="210" width="130" height="50" rx="6" fill="#16213e"/>
+  <text x="630" y="235" class="text-white" text-anchor="middle">1.5% Rewards</text>
+  <text x="630" y="255" class="text-white" text-anchor="middle">+ Travel</text>
+  <rect x="565" y="270" width="130" height="30" rx="6" class="category-badge"/>
+  <text x="630" y="291" class="text-white" text-anchor="middle" font-size="12">Travel & Dining</text>
+
+  <!-- Connector -->
+  <line x1="240" y1="250" x2="560" y2="250" stroke="#0f3460" stroke-width="2" stroke-dasharray="5,5"/>
+
+  <!-- 3-Card Strategy -->
+  <text x="400" y="400" class="text-label">3-Card Wallet (Optimal)</text>
+
+  <!-- Card 1: Amazon Pay ICICI -->
+  <rect x="50" y="430" width="120" height="170" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="110" y="450" class="text-title" text-anchor="middle" font-size="14">Amazon</text>
+  <text x="110" y="465" class="text-white" text-anchor="middle" font-size="12">Pay ICICI</text>
+  <rect x="55" y="475" width="110" height="35" rx="6" fill="#16213e"/>
+  <text x="110" y="497" class="text-white" text-anchor="middle" font-size="11">Flat 2%</text>
+  <rect x="55" y="520" width="110" height="25" rx="6" class="category-badge"/>
+  <text x="110" y="536" class="text-white" text-anchor="middle" font-size="11">Online</text>
+
+  <!-- Card 2: HDFC Regalia -->
+  <rect x="340" y="430" width="120" height="170" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="400" y="450" class="text-title" text-anchor="middle" font-size="14">HDFC</text>
+  <text x="400" y="465" class="text-white" text-anchor="middle" font-size="12">Regalia</text>
+  <rect x="345" y="475" width="110" height="35" rx="6" fill="#16213e"/>
+  <text x="400" y="497" class="text-white" text-anchor="middle" font-size="11">1.5% Travel</text>
+  <rect x="345" y="520" width="110" height="25" rx="6" class="category-badge"/>
+  <text x="400" y="536" class="text-white" text-anchor="middle" font-size="11">Travel</text>
+
+  <!-- Card 3: BPCL SBI Octane -->
+  <rect x="630" y="430" width="120" height="170" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="690" y="450" class="text-title" text-anchor="middle" font-size="14">BPCL SBI</text>
+  <text x="690" y="465" class="text-white" text-anchor="middle" font-size="12">Octane</text>
+  <rect x="635" y="475" width="110" height="35" rx="6" fill="#16213e"/>
+  <text x="690" y="497" class="text-white" text-anchor="middle" font-size="11">4% Fuel</text>
+  <rect x="635" y="520" width="110" height="25" rx="6" class="category-badge"/>
+  <text x="690" y="536" class="text-white" text-anchor="middle" font-size="11">Fuel</text>
+
+  <!-- Connectors -->
+  <line x1="170" y1="410" x2="170" y2="430" stroke="#0f3460" stroke-width="2"/>
+  <line x1="400" y1="410" x2="400" y2="430" stroke="#0f3460" stroke-width="2"/>
+  <line x1="690" y1="410" x2="690" y2="430" stroke="#0f3460" stroke-width="2"/>
+
+  <!-- 4-Card Strategy -->
+  <text x="400" y="680" class="text-label">4-Card Wallet (Advanced)</text>
+
+  <!-- Card 1: Amazon Pay ICICI -->
+  <rect x="30" y="710" width="110" height="140" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="85" y="725" class="text-title" text-anchor="middle" font-size="12">Amazon</text>
+  <text x="85" y="737" class="text-white" text-anchor="middle" font-size="11">Pay ICICI</text>
+  <rect x="35" y="750" width="100" height="30" rx="6" fill="#16213e"/>
+  <text x="85" y="769" class="text-white" text-anchor="middle" font-size="10">2% Online</text>
+  <rect x="35" y="785" width="100" height="20" rx="6" class="category-badge"/>
+  <text x="85" y="798" class="text-white" text-anchor="middle" font-size="9">Shopping</text>
+
+  <!-- Card 2: HDFC Regalia -->
+  <rect x="235" y="710" width="110" height="140" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="290" y="725" class="text-title" text-anchor="middle" font-size="12">HDFC</text>
+  <text x="290" y="737" class="text-white" text-anchor="middle" font-size="11">Regalia</text>
+  <rect x="240" y="750" width="100" height="30" rx="6" fill="#16213e"/>
+  <text x="290" y="769" class="text-white" text-anchor="middle" font-size="10">1.5% Travel</text>
+  <rect x="240" y="785" width="100" height="20" rx="6" class="category-badge"/>
+  <text x="290" y="798" class="text-white" text-anchor="middle" font-size="9">Travel</text>
+
+  <!-- Card 3: BPCL SBI Octane -->
+  <rect x="440" y="710" width="110" height="140" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="495" y="725" class="text-title" text-anchor="middle" font-size="12">BPCL SBI</text>
+  <text x="495" y="737" class="text-white" text-anchor="middle" font-size="11">Octane</text>
+  <rect x="445" y="750" width="100" height="30" rx="6" fill="#16213e"/>
+  <text x="495" y="769" class="text-white" text-anchor="middle" font-size="10">4% Fuel</text>
+  <rect x="445" y="785" width="100" height="20" rx="6" class="category-badge"/>
+  <text x="495" y="798" class="text-white" text-anchor="middle" font-size="9">Fuel</text>
+
+  <!-- Card 4: Swiggy HDFC -->
+  <rect x="645" y="710" width="110" height="140" rx="10" fill="#1a1a2e" class="card-box"/>
+  <text x="700" y="725" class="text-title" text-anchor="middle" font-size="12">Swiggy</text>
+  <text x="700" y="737" class="text-white" text-anchor="middle" font-size="11">HDFC</text>
+  <rect x="650" y="750" width="100" height="30" rx="6" fill="#16213e"/>
+  <text x="700" y="769" class="text-white" text-anchor="middle" font-size="10">5% Dining</text>
+  <rect x="650" y="785" width="100" height="20" rx="6" class="category-badge"/>
+  <text x="700" y="798" class="text-white" text-anchor="middle" font-size="9">Dining</text>
+
+  <!-- Footer note -->
+  <rect x="50" y="880" width="700" height="15" rx="6"/>
+  <text x="400" y="891" class="text-desc" text-anchor="middle">Tip: Use category-specific cards for maximum rewards - rotate based on spending pattern</text>
+</svg>

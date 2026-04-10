@@ -1,0 +1,82 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f5f5; }
+      .dark-box { fill: #1a1a2e; stroke: #0f3460; stroke-width: 2; }
+      .blue-box { fill: #16213e; stroke: #0f3460; stroke-width: 2; }
+      .accent-box { fill: #e94560; stroke: #c92a47; stroke-width: 2; }
+      .text-white { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 500; }
+      .text-title { fill: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 700; }
+      .text-heading { fill: #1a1a2e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 24px; font-weight: 700; }
+      .arrow { stroke: #0f3460; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .yes-label { fill: #16213e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; font-weight: 600; }
+      .no-label { fill: #e94560; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#0f3460" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" class="bg"/>
+
+  <!-- Title -->
+  <text x="400" y="50" class="text-heading" text-anchor="middle">Which First Credit Card Should You Get?</text>
+
+  <!-- Start Decision -->
+  <rect x="300" y="100" width="200" height="80" rx="10" class="dark-box"/>
+  <text x="400" y="135" class="text-title" text-anchor="middle">Have CIBIL</text>
+  <text x="400" y="160" class="text-title" text-anchor="middle">Score?</text>
+
+  <!-- No Score Path -->
+  <path d="M 300 140 L 150 250" class="arrow"/>
+  <text x="220" y="180" class="no-label">No</text>
+
+  <rect x="50" y="250" width="200" height="80" rx="10" class="accent-box"/>
+  <text x="150" y="280" class="text-white" text-anchor="middle">No Score /</text>
+  <text x="150" y="305" class="text-white" text-anchor="middle">Below 650</text>
+
+  <!-- Secured Cards Result -->
+  <rect x="20" y="380" width="260" height="100" rx="10" class="blue-box"/>
+  <text x="150" y="410" class="text-title" text-anchor="middle">Secured Cards</text>
+  <text x="150" y="435" class="text-white" text-anchor="middle">• ICICI Coral FD</text>
+  <text x="150" y="460" class="text-white" text-anchor="middle">• SBI Unnati</text>
+  <text x="150" y="485" class="text-white" text-anchor="middle">• Kotak Secured</text>
+
+  <!-- Yes Path -->
+  <path d="M 500 140 L 650 250" class="arrow"/>
+  <text x="600" y="180" class="yes-label">Yes</text>
+
+  <rect x="550" y="250" width="200" height="80" rx="10" class="dark-box"/>
+  <text x="650" y="285" class="text-title" text-anchor="middle">Score 750+?</text>
+
+  <!-- Score 750+ Path -->
+  <path d="M 650 330 L 650 400" class="arrow"/>
+  <text x="670" y="365" class="yes-label">Yes</text>
+
+  <rect x="550" y="400" width="200" height="100" rx="10" class="accent-box"/>
+  <text x="650" y="425" class="text-white" text-anchor="middle">Premium Cards</text>
+  <text x="650" y="450" class="text-white" text-anchor="middle">• Amazon Pay</text>
+  <text x="650" y="470" class="text-white" text-anchor="middle">  ICICI</text>
+  <text x="650" y="495" class="text-white" text-anchor="middle">• Axis ACE</text>
+
+  <!-- Score 650-750 Path -->
+  <path d="M 550 290 L 400 350" class="arrow"/>
+  <text x="450" y="310" class="no-label">650-750</text>
+
+  <rect x="300" y="350" width="200" height="100" rx="10" class="blue-box"/>
+  <text x="400" y="375" class="text-title" text-anchor="middle">Mid-Tier Cards</text>
+  <text x="400" y="400" class="text-white" text-anchor="middle">• SBI</text>
+  <text x="400" y="420" class="text-white" text-anchor="middle">  SimplyCLICK</text>
+  <text x="400" y="445" class="text-white" text-anchor="middle">• IDFC FIRST</text>
+
+  <!-- Info Box -->
+  <rect x="50" y="650" width="700" height="120" rx="8" fill="#16213e" stroke="#0f3460" stroke-width="2"/>
+  <text x="400" y="680" class="text-title" text-anchor="middle">Key Eligibility Factors</text>
+  <text x="70" y="710" class="text-white" font-size="13">• CIBIL Score: Check on CIBIL.com (free annual report)</text>
+  <text x="70" y="735" class="text-white" font-size="13">• Income: Most cards need ₹15-25L annual income minimum</text>
+  <text x="70" y="760" class="text-white" font-size="13">• Documentation: Pan, Aadhar, Address proof, Bank statements</text>
+
+  <!-- Footer -->
+  <text x="400" y="850" class="text-white" text-anchor="middle" font-size="12" fill="#666">Recommendation: Start with a card matching your score, graduate as your CIBIL improves</text>
+</svg>
