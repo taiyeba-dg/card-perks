@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# CardPerks
 
-## Project info
+An Indian credit card intelligence platform. Compare 100+ credit cards, calculate rewards, optimize your card stack, and get AI-powered recommendations.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Live:** [cardperks.xyz](https://cardperks.xyz)
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Card Catalog** — Browse 100+ Indian credit cards with detailed breakdowns of rewards, fees, lounge access, and eligibility. Each card has a dedicated page with category-wise earning rates, portal bonuses, redemption options, and milestone benefits.
 
-**Use Lovable**
+- **Smart Comparison** — Compare two cards side-by-side across 7 tabs: overview, rewards, redemption, lounge access, features, fees, and an AI-generated verdict with scoring.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Rewards Calculator** — Input your monthly spending across 11 categories (grocery, dining, fuel, online, travel, utilities, etc.) and see exactly how much you'd earn with each card. Includes portal earning rates and spending presets.
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Fee Worth Calculator** — Breakeven analysis showing how much you need to spend to justify a card's annual fee, factoring in milestone bonuses and welcome benefits.
 
-**Use your preferred IDE**
+- **Find My Card** — 3-step guided quiz (priorities, spending, eligibility) that scores and ranks cards based on your profile.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Stack Optimizer** — Select 3+ cards from your wallet and see the optimal spending distribution across categories to maximize total rewards.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **PerkAI** — AI chatbot (Claude-powered via Supabase Edge Functions) for context-aware card recommendations based on your spending patterns.
 
-Follow these steps:
+- **Devaluation Tracker** — Historical record of credit card rewards program changes across Indian banks.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Guides Hub** — 30+ educational guides on credit card strategy, CIBIL scores, fee optimization, and more.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Frontend:** React 18 + TypeScript, Vite, TailwindCSS, shadcn/ui, Recharts, Three.js, Framer Motion
+- **Backend:** Supabase (PostgreSQL + Auth + Edge Functions)
+- **AI:** Claude API via Supabase Edge Functions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Data Architecture
+
+Cards use a V3 schema with two layers:
+- **Index** — Metadata (name, bank, network, tier, fee, base rate, image)
+- **Enrichment** — Detailed rewards (category rates with caps/MCC exclusions), portal details, redemption options, transfer partners, milestones, fee waivers
+
+Both merge into `CardV3Master`, the single source of truth used across the app.
+
+## Getting Started
+
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Runs at `http://localhost:8080`. For full functionality, set up Supabase credentials in `.env` (see `.env.example`).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+  pages/              # Route components (lazy-loaded)
+  components/
+    compare/          # Card comparison logic + tabs
+    card-finder/      # Guided quiz + scoring engine
+    stack-optimizer/  # Multi-card optimization engine
+    perk-ai/          # AI chat interface
+    calculators/      # Rewards, redemption, fee-worth
+  data/
+    card-v3-master.ts # Single source of truth for card data
+    card-v3-index.ts  # Card metadata (100+ cards)
+    card-v3-data.ts   # Enrichment data (rewards, fees, redemption)
+  hooks/              # use-cards-v3, use-my-cards, use-chat-history
+  integrations/
+    supabase/         # Client + types
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT
